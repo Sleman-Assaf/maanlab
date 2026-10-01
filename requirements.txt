@@ -1,0 +1,6 @@
+Django>=5.2,<5.3
+Pillow>=11.0
+whitenoise>=6.7
+
+# PostgreSQL (production) — uncomment when DB_ENGINE=postgres
+# psycopg[binary]>=3.2

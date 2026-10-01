@@ -1,0 +1,68 @@
+{% load static i18n maan %}
+<span class="anchor-target" id="about" aria-hidden="true"></span>
+<section class="about section section--light" data-nav-theme="light" data-nav-section="about"
+         data-pin-bottom data-pin-mq="(min-width: 1024px)" aria-labelledby="about-title">
+  <div class="container">
+    {% translate "Who we are" as label %}{% translate "From Ma'an." as line1 %}{% translate "Built beyond borders." as line2 %}
+    {% translate "MAAN LAB is a creative technology studio from Ma'an, Jordan, working across software, automation, AI and digital production." as lead %}
+    {% include "partials/section_head.html" with num="03" heading_id="about-title" sub="" %}
+
+    <div class="about__grid">
+      <figure class="about__media shutter" data-shutter style="--shutter-bg: var(--c-bone)">
+        <picture>
+          <source type="image/avif" srcset="{% static 'img/about/petra.avif' %}">
+          <source type="image/webp" srcset="{% static 'img/about/petra-480.webp' %} 480w, {% static 'img/about/petra.webp' %} 753w"
+                  sizes="(min-width: 1024px) 38vw, 100vw">
+          <img class="about__photo" src="{% static 'img/about/petra.jpg' %}" width="753" height="941" loading="lazy" decoding="async"
+               alt="{% translate 'The Treasury, carved into rose-red sandstone at Petra in Ma’an Governorate, lit by warm evening light' %}">
+        </picture>
+        <span class="about__scrim" aria-hidden="true"></span>
+        <div class="about__coords" dir="ltr" aria-hidden="true">
+          <span>30.1962° N</span>
+          <span>35.7341° E</span>
+        </div>
+        <figcaption class="about__place">
+          <span class="about__place-name">{% translate "Ma'an, Jordan" %}</span>
+          <span class="about__place-note">{% translate "Based in Ma'an, Jordan." %}</span>
+        </figcaption>
+      </figure>
+
+      <div class="about__body">
+        <p class="about__text" data-reveal data-reveal-threshold=".4">
+          {% translate "We turn manual work, rough ideas and creative concepts into digital systems, products and experiences that are ready to use." %}
+        </p>
+        <p class="about__text about__text--muted" data-reveal data-reveal-delay=".15" data-reveal-threshold=".4">
+          {% translate "We're a small, hands-on team. The people who understand the problem, shape the solution and build it are the same people you work with. We work in Arabic and English, in Jordan and beyond." %}
+        </p>
+
+        <p class="eyebrow about__combine-label" data-reveal data-reveal-y="30">{% translate "We combine" %}</p>
+        <ul class="about__keywords" role="list">
+          {% for keyword in about_keywords %}
+            <li data-reveal data-reveal-y="40" data-reveal-delay="{{ forloop.counter0 }}e-1">
+              <span class="about__kw-num" dir="ltr">{{ forloop.counter|pad2 }}</span>
+              <span class="about__kw">{{ keyword }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <dl class="about__stats">
+      <div class="stat" data-reveal data-reveal-y="40">
+        <dt class="stat__value" dir="ltr"><span data-counter>{{ stats.disciplines|pad2 }}</span></dt>
+        <dd class="stat__label">{% translate "Capabilities" %}</dd>
+        <dd class="stat__desc">{% translate "Automation, software, AI video and digital transformation — one team." %}</dd>
+      </div>
+      <div class="stat" data-reveal data-reveal-y="40" data-reveal-delay=".1">
+        <dt class="stat__value" dir="ltr"><span data-counter>{{ stats.languages|pad2 }}</span></dt>
+        <dd class="stat__label">{% translate "Languages" %}</dd>
+        <dd class="stat__desc">{% translate "Arabic and English, designed together from day one." %}</dd>
+      </div>
+      <div class="stat" data-reveal data-reveal-y="40" data-reveal-delay=".2">
+        <dt class="stat__value" dir="ltr"><span data-counter>{{ stats.projects|pad2 }}</span></dt>
+        <dd class="stat__label">{% translate "Selected projects" %}</dd>
+        <dd class="stat__desc">{% translate "Work and case studies published on this site." %}</dd>
+      </div>
+    </dl>
+  </div>
+</section>

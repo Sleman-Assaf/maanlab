@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block body_class %}page-error{% endblock %}
+{% block content %}
+<section class="error-page container" id="top" data-nav-theme="dark">
+  <p class="eyebrow"><span class="eyebrow__num">404</span> <span class="eyebrow__sep">/</span> {% translate "Page not found" %}</p>
+  <h1 class="display error-page__title">
+    <span class="line">{% translate "Nothing here." %}</span>
+    <span class="line is-accent">{% translate "Yet." %}</span>
+  </h1>
+  <p class="lead">{% translate "The page you're looking for has moved or never existed." %}</p>
+  <a class="btn btn--primary" href="{% url 'core:home' %}"><span>{% translate "Back to home" %}</span>{% include "partials/icons.html" with icon="arrow" %}</a>
+</section>
+{% endblock %}

@@ -1,0 +1,2861 @@
+[
+{
+ "model": "projects.project",
+ "pk": 8,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/sandstone-product-film-ca8ada0896.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/sandstone-product-film-ca8ada0896-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "Sandstone — AI Product Film",
+  "short_description": "A 30-second product film generated and graded with AI — from moodboard to final cut in two weeks.",
+  "description": "The brief was simple: a premium film for a new roast, without the cost of a full studio shoot.\n\nWe wrote the concept, built a storyboard, and generated every shot with AI image and video tools — then edited, scored and colour-graded the film in-house. Cut-downs for Reels and Stories were delivered alongside the master.\n\nSample case study — placeholder content and media.",
+  "client": "Sample client · Specialty coffee",
+  "deliverables": "Concept & storyboard\nAI image & video generation\nEdit, sound & grade\nSocial cut-downs",
+  "title_ar": "ساندستون — فيلم منتج بالذكاء الاصطناعي",
+  "short_description_ar": "فيلم منتج مدته ٣٠ ثانية، مولَّد ومعالج لونياً بالذكاء الاصطناعي — من لوحة الإلهام إلى النسخة النهائية خلال أسبوعين.",
+  "description_ar": "كان المطلوب واضحاً: فيلم فاخر لمنتج قهوة جديد، دون تكلفة تصوير كامل في استوديو.\n\nكتبنا الفكرة وبنينا لوحة القصة، وولّدنا كل لقطة بأدوات الصور والفيديو بالذكاء الاصطناعي، ثم أنجزنا المونتاج والموسيقى والمعالجة اللونية داخلياً، مع نسخ قصيرة لمنصات التواصل.\n\nدراسة حالة تجريبية — محتوى ووسائط مؤقتة.",
+  "client_ar": "عميل تجريبي · قهوة مختصة",
+  "deliverables_ar": "الفكرة ولوحة القصة\nتوليد الصور والفيديو\nالمونتاج والصوت والتلوين\nنسخ لمنصات التواصل",
+  "slug": "sandstone-product-film",
+  "category": "ai_video",
+  "also_in": [],
+  "year": 2026,
+  "cover_image": "projects/covers/sandstone-product-film-ca8ada0896.jpg",
+  "cover_video": "projects/videos/sandstone-product-film-a6cd46b475.mp4",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "fill",
+  "live_url": "",
+  "repo_url": "",
+  "featured": true,
+  "display_order": 11,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T08:20:11.694Z",
+  "updated_at": "2026-09-30T08:20:12.029Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 9,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/monthly-reporting-automated-b509c64449.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/monthly-reporting-automated-b509c64449-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "Monthly Reporting, Automated",
+  "short_description": "Twelve spreadsheets and two days of copy-paste replaced by a pipeline that emails the report at 7am.",
+  "description": "Every month, the operations team merged exports from four systems by hand. Errors were common and the report arrived late.\n\nWe connected the sources through their APIs, cleaned and validated the data automatically, and generated a formatted Excel and PDF report that is emailed to management on schedule.\n\nSample case study — placeholder content and media.",
+  "client": "Sample client · Logistics",
+  "deliverables": "API integration\nData validation\nExcel & PDF generation\nScheduled delivery",
+  "title_ar": "تقارير شهرية مؤتمتة",
+  "short_description_ar": "اثنا عشر ملف Excel ويومان من النسخ واللصق، استُبدلت بمسار آلي يرسل التقرير بالبريد عند السابعة صباحاً.",
+  "description_ar": "كان فريق العمليات يدمج بيانات أربعة أنظمة يدوياً كل شهر، فتكثر الأخطاء ويتأخر التقرير.\n\nربطنا المصادر عبر واجهاتها البرمجية، ونظّفنا البيانات وتحققنا منها آلياً، وأنشأنا تقرير Excel وPDF منسقاً يصل إلى الإدارة بالبريد في موعده.\n\nدراسة حالة تجريبية — محتوى ووسائط مؤقتة.",
+  "client_ar": "عميل تجريبي · خدمات لوجستية",
+  "deliverables_ar": "ربط الواجهات البرمجية\nالتحقق من البيانات\nإنشاء ملفات Excel وPDF\nإرسال مجدول",
+  "slug": "monthly-reporting-automated",
+  "category": "ai_automation",
+  "also_in": [],
+  "year": 2026,
+  "cover_image": "projects/covers/monthly-reporting-automated-b509c64449.jpg",
+  "cover_video": "",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "fill",
+  "live_url": "",
+  "repo_url": "",
+  "featured": false,
+  "display_order": 12,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T08:20:16.658Z",
+  "updated_at": "2026-09-30T08:20:16.901Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 10,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/bilingual-corporate-platform-f459ac9cef.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/bilingual-corporate-platform-f459ac9cef-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "Bilingual Corporate Platform",
+  "short_description": "An Arabic-first, fully RTL corporate site with a project library the team updates themselves.",
+  "description": "The firm needed a site that felt as considered in Arabic as in English — not a translated afterthought.\n\nWe designed both languages together, built the platform on Django with server-side rendering for speed and SEO, and gave the team a simple admin to publish projects and news.\n\nSample case study — placeholder content and media.",
+  "client": "Sample client · Engineering firm",
+  "deliverables": "UX & interface design\nArabic/English content structure\nDjango platform\nSEO setup",
+  "title_ar": "منصة مؤسسية ثنائية اللغة",
+  "short_description_ar": "موقع مؤسسي يبدأ بالعربية ويدعم الاتجاه من اليمين لليسار بالكامل، مع مكتبة مشاريع يحدّثها الفريق بنفسه.",
+  "description_ar": "احتاجت الشركة موقعاً يبدو متقناً بالعربية كما بالإنجليزية — لا ترجمة لاحقة.\n\nصممنا اللغتين معاً، وبنينا المنصة على Django مع العرض من الخادم للسرعة وتحسين الظهور في محركات البحث، ومنحنا الفريق لوحة إدارة بسيطة لنشر المشاريع والأخبار.\n\nدراسة حالة تجريبية — محتوى ووسائط مؤقتة.",
+  "client_ar": "عميل تجريبي · شركة هندسية",
+  "deliverables_ar": "تصميم التجربة والواجهة\nهيكلة المحتوى بالعربية والإنجليزية\nمنصة Django\nإعداد تحسين محركات البحث",
+  "slug": "bilingual-corporate-platform",
+  "category": "web_development",
+  "also_in": [],
+  "year": 2025,
+  "cover_image": "projects/covers/bilingual-corporate-platform-f459ac9cef.jpg",
+  "cover_video": "",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "fill",
+  "live_url": "",
+  "repo_url": "",
+  "featured": false,
+  "display_order": 13,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T08:20:22.012Z",
+  "updated_at": "2026-09-30T08:20:22.219Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 11,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/from-spreadsheets-to-system-3e2c722af9.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/from-spreadsheets-to-system-3e2c722af9-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "From Spreadsheets to One System",
+  "short_description": "Orders, stock and delivery moved from scattered sheets and WhatsApp into one internal platform with live dashboards.",
+  "description": "Work lived in dozens of spreadsheets and group chats. Nobody had a reliable view of stock or open orders.\n\nWe mapped the real process with the team, redesigned it, and replaced the sheets with an internal platform: order entry, stock movements, delivery status and a management dashboard.\n\nSample case study — placeholder content and media.",
+  "client": "Sample client · Distribution company",
+  "deliverables": "Process mapping & redesign\nInternal platform\nDashboards\nTeam onboarding",
+  "title_ar": "من جداول متفرقة إلى نظام واحد",
+  "short_description_ar": "نقل الطلبات والمخزون والتوصيل من جداول متفرقة ورسائل واتساب إلى منصة داخلية واحدة بلوحات متابعة مباشرة.",
+  "description_ar": "كان العمل موزعاً على عشرات الجداول ومجموعات المحادثة، ولم تكن هناك صورة موثوقة للمخزون أو الطلبات المفتوحة.\n\nرسمنا العملية الفعلية مع الفريق وأعدنا تصميمها، واستبدلنا الجداول بمنصة داخلية تشمل إدخال الطلبات وحركة المخزون وحالة التوصيل ولوحة متابعة للإدارة.\n\nدراسة حالة تجريبية — محتوى ووسائط مؤقتة.",
+  "client_ar": "عميل تجريبي · شركة توزيع",
+  "deliverables_ar": "رسم العمليات وإعادة تصميمها\nمنصة داخلية\nلوحات متابعة\nتدريب الفريق",
+  "slug": "from-spreadsheets-to-system",
+  "category": "digital_transformation",
+  "also_in": [],
+  "year": 2025,
+  "cover_image": "projects/covers/from-spreadsheets-to-system-3e2c722af9.jpg",
+  "cover_video": "",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "fill",
+  "live_url": "",
+  "repo_url": "",
+  "featured": true,
+  "display_order": 14,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T08:20:26.681Z",
+  "updated_at": "2026-09-30T08:20:26.873Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 12,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/night-market-campaign-330dbe3346.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/night-market-campaign-330dbe3346-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/night-market-campaign-330dbe3346-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/night-market-campaign-330dbe3346-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/night-market-campaign-330dbe3346-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/night-market-campaign-330dbe3346-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/night-market-campaign-330dbe3346-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/night-market-campaign-330dbe3346-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/night-market-campaign-330dbe3346-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/night-market-campaign-330dbe3346-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "Night Market — Social Campaign",
+  "short_description": "A six-part AI video series for a Ramadan night-market launch, cut for vertical and horizontal feeds.",
+  "description": "The brand wanted a campaign that felt cinematic but could be produced fast and adapted per channel.\n\nWe developed a visual world, generated the series with AI, and delivered each film in multiple formats with Arabic typography designed for motion.\n\nSample case study — placeholder content and media.",
+  "client": "Sample client · Retail brand",
+  "deliverables": "Campaign concept\nAI video series\nArabic motion typography\nMulti-format delivery",
+  "title_ar": "سوق الليل — حملة تواصل اجتماعي",
+  "short_description_ar": "سلسلة من ستة مقاطع فيديو بالذكاء الاصطناعي لإطلاق سوق ليلي في رمضان، بنسخ عمودية وأفقية.",
+  "description_ar": "أرادت العلامة حملة بطابع سينمائي يمكن إنتاجها بسرعة وتكييفها لكل منصة.\n\nطوّرنا عالماً بصرياً، وولّدنا السلسلة بالذكاء الاصطناعي، وسلّمنا كل فيلم بعدة مقاسات مع طباعة عربية مصممة للحركة.\n\nدراسة حالة تجريبية — محتوى ووسائط مؤقتة.",
+  "client_ar": "عميل تجريبي · علامة تجارية للتجزئة",
+  "deliverables_ar": "فكرة الحملة\nسلسلة فيديو بالذكاء الاصطناعي\nطباعة عربية متحركة\nتسليم بعدة مقاسات",
+  "slug": "night-market-campaign",
+  "category": "ai_video",
+  "also_in": [],
+  "year": 2025,
+  "cover_image": "projects/covers/night-market-campaign-330dbe3346.jpg",
+  "cover_video": "projects/videos/night-market-campaign-fa23321330.mp4",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "fill",
+  "live_url": "",
+  "repo_url": "",
+  "featured": false,
+  "display_order": 15,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T08:20:31.118Z",
+  "updated_at": "2026-09-30T08:20:31.465Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 13,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/arabic-ai-call-assistant-d6717897a1.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/arabic-ai-call-assistant-d6717897a1-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "Arabic AI Call Assistant",
+  "short_description": "A voice agent that answers routine calls in Jordanian Arabic and hands complex cases to a person.",
+  "description": "Most calls asked the same five questions. Staff spent their day repeating answers instead of solving problems.\n\nWe built an AI call assistant that understands Jordanian Arabic, answers common requests, books appointments and passes the rest to the team with a written summary.\n\nSample case study — placeholder content and media.",
+  "client": "Sample client · Service center",
+  "deliverables": "Conversation design\nVoice AI agent\nBooking integration\nHandover to staff",
+  "title_ar": "مساعد اتصال عربي بالذكاء الاصطناعي",
+  "short_description_ar": "وكيل صوتي يجيب على الاتصالات الروتينية باللهجة الأردنية ويحوّل الحالات المعقدة إلى موظف.",
+  "description_ar": "كانت معظم الاتصالات تطرح الأسئلة الخمسة نفسها، فيقضي الموظفون يومهم في تكرار الإجابات بدلاً من حل المشكلات.\n\nبنينا مساعد اتصال بالذكاء الاصطناعي يفهم اللهجة الأردنية، ويجيب على الطلبات الشائعة، ويحجز المواعيد، ويحوّل بقية الحالات إلى الفريق مع ملخص مكتوب.\n\nدراسة حالة تجريبية — محتوى ووسائط مؤقتة.",
+  "client_ar": "عميل تجريبي · مركز خدمة",
+  "deliverables_ar": "تصميم المحادثة\nوكيل صوتي ذكي\nربط الحجوزات\nتحويل إلى الموظفين",
+  "slug": "arabic-ai-call-assistant",
+  "category": "ai_automation",
+  "also_in": [],
+  "year": 2026,
+  "cover_image": "projects/covers/arabic-ai-call-assistant-d6717897a1.jpg",
+  "cover_video": "",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "fill",
+  "live_url": "",
+  "repo_url": "",
+  "featured": false,
+  "display_order": 16,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T08:20:35.756Z",
+  "updated_at": "2026-09-30T08:20:36.001Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 14,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/clinic-booking-web-app-665ec911d9.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/clinic-booking-web-app-665ec911d9-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "Clinic Booking Web App",
+  "short_description": "A fast, mobile-first booking app for four clinics, with reminders and a simple staff dashboard.",
+  "description": "Patients booked by phone during working hours only. Missed calls meant missed appointments.\n\nWe built a mobile-first web app for booking in Arabic or English, automatic SMS reminders, and a dashboard for reception staff to manage the day.\n\nSample case study — placeholder content and media.",
+  "client": "Sample client · Clinic group",
+  "deliverables": "Product design\nWeb application\nSMS reminders\nStaff dashboard",
+  "title_ar": "تطبيق ويب لحجز المواعيد",
+  "short_description_ar": "تطبيق حجز سريع مصمم للهاتف أولاً لأربع عيادات، مع تذكيرات ولوحة بسيطة للموظفين.",
+  "description_ar": "كان المرضى يحجزون هاتفياً خلال ساعات الدوام فقط، والمكالمات الفائتة تعني مواعيد ضائعة.\n\nبنينا تطبيق ويب للحجز بالعربية أو الإنجليزية، مع تذكيرات تلقائية بالرسائل القصيرة ولوحة لموظفي الاستقبال لإدارة اليوم.\n\nدراسة حالة تجريبية — محتوى ووسائط مؤقتة.",
+  "client_ar": "عميل تجريبي · مجموعة عيادات",
+  "deliverables_ar": "تصميم المنتج\nتطبيق ويب\nتذكيرات بالرسائل\nلوحة للموظفين",
+  "slug": "clinic-booking-web-app",
+  "category": "web_development",
+  "also_in": [],
+  "year": 2025,
+  "cover_image": "projects/covers/clinic-booking-web-app-665ec911d9.jpg",
+  "cover_video": "",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "fill",
+  "live_url": "",
+  "repo_url": "",
+  "featured": false,
+  "display_order": 17,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T08:20:40.505Z",
+  "updated_at": "2026-09-30T08:20:40.697Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 15,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/nabatati-b02c099464.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/nabatati-b02c099464-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/nabatati-b02c099464-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/nabatati-b02c099464-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/nabatati-b02c099464-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/nabatati-b02c099464-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/nabatati-b02c099464-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/nabatati-b02c099464-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/nabatati-b02c099464-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/nabatati-b02c099464-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "Nabatati — AI Plant Health Platform",
+  "short_description": "A web platform that diagnoses olive-leaf diseases from a photo, answers plant-care questions with an AI assistant, and connects growers with agricultural engineers.",
+  "description": "Nabatati helps growers catch plant problems early. A user uploads a photo of an olive leaf, and a trained deep-learning model classifies it as healthy or identifies the disease, with a confidence score.\n\nAlongside diagnosis, a Gemini-powered chatbot answers plant-care questions, and growers can request a consultation with an agricultural engineer and continue the conversation in a real-time chat.\n\nBuilt with an Angular front end, a Django REST Framework API with JWT and Google sign-in, a TensorFlow/Keras image model, and a Node.js and Socket.io service for live chat.",
+  "client": "",
+  "deliverables": "AI plant-disease diagnosis\nGemini AI chatbot\nExpert consultations & live chat\nAngular front end\nDjango REST API with Google sign-in",
+  "title_ar": "نباتاتي — منصة ذكية لصحة النباتات",
+  "short_description_ar": "منصة ويب تشخّص أمراض أوراق الزيتون من صورة، وتجيب عن أسئلة العناية بالنباتات عبر مساعد ذكي، وتربط المزارعين بالمهندسين الزراعيين.",
+  "description_ar": "تساعد نباتاتي المزارعين على اكتشاف مشكلات النباتات مبكرًا. يرفع المستخدم صورة لورقة زيتون، فيصنّفها نموذج تعلّم عميق مدرَّب على أنها سليمة أو يحدد نوع المرض، مع نسبة الثقة في النتيجة.\n\nوإلى جانب التشخيص، يجيب مساعد ذكي مدعوم بـ Gemini عن أسئلة العناية بالنباتات، ويمكن للمزارعين طلب استشارة من مهندس زراعي ومتابعة الحديث عبر محادثة فورية.\n\nبُنيت المنصة بواجهة Angular، وواجهة برمجية Django REST Framework مع تسجيل الدخول عبر JWT وGoogle، ونموذج صور TensorFlow/Keras، وخدمة Node.js وSocket.io للمحادثة المباشرة.",
+  "client_ar": "",
+  "deliverables_ar": "تشخيص أمراض النباتات بالذكاء الاصطناعي\nمساعد ذكي مدعوم بـ Gemini\nاستشارات الخبراء والمحادثة المباشرة\nواجهة Angular\nواجهة برمجية Django REST مع تسجيل الدخول عبر Google",
+  "slug": "nabatati",
+  "category": "ai_automation",
+  "also_in": [
+   "web_development"
+  ],
+  "year": 2026,
+  "cover_image": "projects/covers/nabatati-b02c099464.jpg",
+  "cover_video": "",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "screen",
+  "live_url": "https://sleman-assaf.github.io/Nabatati-new/",
+  "repo_url": "https://github.com/Sleman-Assaf/Nabatati-new",
+  "featured": true,
+  "display_order": 1,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T11:22:44.721Z",
+  "updated_at": "2026-09-30T11:57:14.240Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 16,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/lingovoice-7b33834e29.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/lingovoice-7b33834e29-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/lingovoice-7b33834e29-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/lingovoice-7b33834e29-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/lingovoice-7b33834e29-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/lingovoice-7b33834e29-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/lingovoice-7b33834e29-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/lingovoice-7b33834e29-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/lingovoice-7b33834e29-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/lingovoice-7b33834e29-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "LingoVoice — AI Speaking Coach",
+  "short_description": "A language-learning web app where learners practise speaking out loud and get instant AI feedback on grammar and pronunciation, plus a spoken reply.",
+  "description": "LingoVoice turns speaking practice into a real conversation. Learners record their voice; the system transcribes it, corrects grammar and pronunciation, explains the feedback in Arabic, and replies with an AI-generated voice in the target language.\n\nSessions are saved and can be exported as PDF reports, and an admin dashboard manages courses and users.\n\nBuilt with Angular and an ASP.NET Core Web API (C#, Entity Framework Core, SQL Server), JWT authentication, WebSockets for real-time communication, QuestPDF and MailKit, with the Gemini API for speech and conversation.",
+  "client": "",
+  "deliverables": "AI voice conversation\nGrammar & pronunciation feedback\nSpeech-to-text & text-to-speech\nPDF conversation reports\nAdmin dashboard & courses",
+  "title_ar": "LingoVoice — مدرّب محادثة بالذكاء الاصطناعي",
+  "short_description_ar": "تطبيق ويب لتعلّم اللغات يتدرّب فيه المتعلم على التحدث بصوته، ويحصل فورًا على ملاحظات ذكية حول القواعد والنطق مع رد صوتي.",
+  "description_ar": "يحوّل LingoVoice التدريب على التحدث إلى محادثة حقيقية. يسجّل المتعلم صوته، فيحوّله النظام إلى نص، ويصحح القواعد والنطق، ويشرح الملاحظات باللغة العربية، ثم يرد بصوت مولَّد بالذكاء الاصطناعي باللغة المستهدفة.\n\nتُحفظ الجلسات ويمكن تصديرها كتقارير PDF، وتتيح لوحة تحكم للمسؤولين إدارة الدورات والمستخدمين.\n\nبُني التطبيق بواجهة Angular وواجهة برمجية ASP.NET Core Web API (C# وEntity Framework Core وSQL Server)، مع مصادقة JWT، واتصال فوري عبر WebSockets، وQuestPDF وMailKit، وواجهة Gemini البرمجية للصوت والمحادثة.",
+  "client_ar": "",
+  "deliverables_ar": "محادثة صوتية بالذكاء الاصطناعي\nملاحظات حول القواعد والنطق\nتحويل الكلام إلى نص والنص إلى كلام\nتقارير المحادثات بصيغة PDF\nلوحة تحكم وإدارة الدورات",
+  "slug": "lingovoice",
+  "category": "ai_automation",
+  "also_in": [
+   "web_development"
+  ],
+  "year": 2026,
+  "cover_image": "projects/covers/lingovoice-7b33834e29.jpg",
+  "cover_video": "",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "screen",
+  "live_url": "https://sleman-assaf.github.io/LingoVoice/",
+  "repo_url": "https://github.com/Sleman-Assaf/LingoVoice",
+  "featured": false,
+  "display_order": 2,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T11:22:48.636Z",
+  "updated_at": "2026-09-30T11:57:14.245Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 17,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/maktabati-bookstore-b0b56290a0.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-1600.webp"
+     ],
+     [
+      2400,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/maktabati-bookstore-b0b56290a0-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "Maktabati — Online Bookstore",
+  "short_description": "A responsive bookstore website with featured and popular collections, special offers, articles and an app download section.",
+  "description": "Maktabati is a front-end bookstore experience: a hero showcase, featured books, discounted offers, a best-seller spotlight, category tabs for popular books, a newsletter sign-up and an articles section.\n\nBuilt with semantic HTML and custom CSS, fully responsive, and published on GitHub Pages.",
+  "client": "",
+  "deliverables": "Responsive layout\nBook collections & offers\nCategory tabs\nNewsletter & articles\nGitHub Pages deployment",
+  "title_ar": "مكتبتي — متجر كتب إلكتروني",
+  "short_description_ar": "موقع متجر كتب متجاوب يعرض الكتب المميزة والأكثر رواجًا، والعروض الخاصة، والمقالات، وقسمًا لتحميل التطبيق.",
+  "description_ar": "مكتبتي تجربة واجهة أمامية لمتجر كتب: عرض رئيسي، وكتب مميزة، وعروض بأسعار مخفّضة، وتسليط الضوء على الكتاب الأكثر مبيعًا، وتبويبات لتصنيفات الكتب الرائجة، واشتراك في النشرة البريدية، وقسم للمقالات.\n\nبُني الموقع باستخدام HTML دلالي وCSS مخصص، وهو متجاوب بالكامل ومنشور على GitHub Pages.",
+  "client_ar": "",
+  "deliverables_ar": "تصميم متجاوب\nمجموعات الكتب والعروض\nتبويبات التصنيفات\nالنشرة البريدية والمقالات\nالنشر على GitHub Pages",
+  "slug": "maktabati-bookstore",
+  "category": "web_development",
+  "also_in": [],
+  "year": 2024,
+  "cover_image": "projects/covers/maktabati-bookstore-b0b56290a0.jpg",
+  "cover_video": "",
+  "cover_video_mobile": "",
+  "film": "",
+  "film_mobile": "",
+  "thumbnail": "",
+  "cover_fit": "screen",
+  "live_url": "https://sleman-assaf.github.io/booksStore/",
+  "repo_url": "https://github.com/Sleman-Assaf/booksStore",
+  "featured": false,
+  "display_order": 3,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-09-30T11:22:52.276Z",
+  "updated_at": "2026-09-30T11:57:14.249Z"
+ }
+},
+{
+ "model": "projects.project",
+ "pk": 18,
+ "fields": {
+  "media_variants": {
+   "cover_image": {
+    "source": "projects/covers/what-does-royal-mean-71fd1d2a07.jpg",
+    "width": 1920,
+    "height": 1080,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-480.webp"
+     ],
+     [
+      800,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-800.webp"
+     ],
+     [
+      1200,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-1200.webp"
+     ],
+     [
+      1600,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-1600.webp"
+     ],
+     [
+      1920,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-1920.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-480.avif"
+     ],
+     [
+      800,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-800.avif"
+     ],
+     [
+      1200,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-1200.avif"
+     ],
+     [
+      1600,
+      "projects/covers/variants/what-does-royal-mean-71fd1d2a07-1600.avif"
+     ]
+    ]
+   }
+  },
+  "title": "What Does Royal Mean? — AI Airline Film",
+  "short_description": "A 50-second cinematic airline film made with AI — the crew, the journey above the clouds, and Jordan from Amman's Citadel to Petra.",
+  "description": "A brand film built around one question: what does “royal” feel like? The answer runs from the details of the crew uniform and the warmth of the cabin to a sunset above the clouds and the places that make Jordan unforgettable.\n\nEvery shot was created with AI — from concept and storyboard to image and video generation — then edited, colour-graded and finished with sound in-house, ending on the “Fly Royal” signature.\n\nDelivered as a 16:9 1080p master, with short loops cut for web and social.",
+  "client": "",
+  "deliverables": "Concept & script\nStoryboard\nAI image & video generation\nEdit, colour grade & sound\n16:9 1080p master + web loops",
+  "title_ar": "ما معنى أن تكون ملكيًا؟ — فيلم طيران بالذكاء الاصطناعي",
+  "short_description_ar": "فيلم طيران سينمائي مدته 50 ثانية أُنتج بالذكاء الاصطناعي — طاقم الضيافة، والرحلة فوق الغيوم، والأردن من جبل القلعة في عمّان إلى البترا.",
+  "description_ar": "فيلم يدور حول سؤال واحد: كيف يبدو الإحساس بأن تكون «ملكيًا»؟ وتأتي الإجابة من تفاصيل زيّ الطاقم ودفء المقصورة، إلى غروب الشمس فوق الغيوم، والأماكن التي تجعل الأردن تجربة لا تُنسى.\n\nأُنتجت جميع اللقطات بالذكاء الاصطناعي — من الفكرة والقصة المصوّرة إلى توليد الصور والفيديو — ثم جرى المونتاج وتصحيح الألوان وإضافة الصوت داخليًا، وصولًا إلى الخاتمة «Fly Royal».\n\nسُلّم الفيلم بنسخة رئيسية بدقة 1080p ونسبة 16:9، مع مقاطع قصيرة مُعدّة للويب ومنصات التواصل.",
+  "client_ar": "",
+  "deliverables_ar": "الفكرة والنص\nالقصة المصوّرة (Storyboard)\nتوليد الصور والفيديو بالذكاء الاصطناعي\nالمونتاج وتصحيح الألوان والصوت\nنسخة رئيسية 1080p بنسبة 16:9 ومقاطع للويب",
+  "slug": "what-does-royal-mean",
+  "category": "ai_video",
+  "also_in": [],
+  "year": 2026,
+  "cover_image": "projects/covers/what-does-royal-mean-71fd1d2a07.jpg",
+  "cover_video": "projects/videos/what-does-royal-mean-loop-fa291519ff.mp4",
+  "cover_video_mobile": "projects/videos/what-does-royal-mean-loop-mobile-f895232ac3.mp4",
+  "film": "projects/films/what-does-royal-mean-film-4d26e3d5f6.mp4",
+  "film_mobile": "projects/films/what-does-royal-mean-film-mobile-c3b040cc1b.mp4",
+  "thumbnail": "",
+  "cover_fit": "fill",
+  "live_url": "",
+  "repo_url": "",
+  "featured": true,
+  "display_order": 4,
+  "is_published": true,
+  "seo_title": "",
+  "seo_title_ar": "",
+  "seo_description": "",
+  "seo_description_ar": "",
+  "created_at": "2026-10-01T11:27:17.186Z",
+  "updated_at": "2026-10-01T11:38:20.106Z"
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 22,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/sandstone-product-film-0-27e09d4d70.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/sandstone-product-film-0-27e09d4d70-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 8,
+  "image": "projects/gallery/sandstone-product-film-0-27e09d4d70.jpg",
+  "video": "",
+  "caption": "Placeholder — key visual",
+  "caption_ar": "صورة مؤقتة — المشهد الرئيسي",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 23,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/sandstone-product-film-1-f16cf4b6b1.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/sandstone-product-film-1-f16cf4b6b1-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/sandstone-product-film-1-f16cf4b6b1-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/sandstone-product-film-1-f16cf4b6b1-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/sandstone-product-film-1-f16cf4b6b1-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/sandstone-product-film-1-f16cf4b6b1-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/sandstone-product-film-1-f16cf4b6b1-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/sandstone-product-film-1-f16cf4b6b1-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/sandstone-product-film-1-f16cf4b6b1-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 8,
+  "image": "projects/gallery/sandstone-product-film-1-f16cf4b6b1.jpg",
+  "video": "",
+  "caption": "Placeholder — detail",
+  "caption_ar": "صورة مؤقتة — تفصيل",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 24,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/sandstone-product-film-2-5671cc0427.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/sandstone-product-film-2-5671cc0427-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/sandstone-product-film-2-5671cc0427-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/sandstone-product-film-2-5671cc0427-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/sandstone-product-film-2-5671cc0427-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/sandstone-product-film-2-5671cc0427-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/sandstone-product-film-2-5671cc0427-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/sandstone-product-film-2-5671cc0427-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/sandstone-product-film-2-5671cc0427-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 8,
+  "image": "projects/gallery/sandstone-product-film-2-5671cc0427.jpg",
+  "video": "",
+  "caption": "Placeholder — system",
+  "caption_ar": "صورة مؤقتة — النظام",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 25,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/monthly-reporting-automated-0-93cb9c1820.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/monthly-reporting-automated-0-93cb9c1820-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 9,
+  "image": "projects/gallery/monthly-reporting-automated-0-93cb9c1820.jpg",
+  "video": "",
+  "caption": "Placeholder — key visual",
+  "caption_ar": "صورة مؤقتة — المشهد الرئيسي",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 26,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/monthly-reporting-automated-1-b752516677.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/monthly-reporting-automated-1-b752516677-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/monthly-reporting-automated-1-b752516677-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/monthly-reporting-automated-1-b752516677-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/monthly-reporting-automated-1-b752516677-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/monthly-reporting-automated-1-b752516677-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/monthly-reporting-automated-1-b752516677-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/monthly-reporting-automated-1-b752516677-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/monthly-reporting-automated-1-b752516677-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 9,
+  "image": "projects/gallery/monthly-reporting-automated-1-b752516677.jpg",
+  "video": "",
+  "caption": "Placeholder — detail",
+  "caption_ar": "صورة مؤقتة — تفصيل",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 27,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/monthly-reporting-automated-2-42fa4bde6e.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/monthly-reporting-automated-2-42fa4bde6e-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/monthly-reporting-automated-2-42fa4bde6e-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/monthly-reporting-automated-2-42fa4bde6e-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/monthly-reporting-automated-2-42fa4bde6e-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/monthly-reporting-automated-2-42fa4bde6e-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/monthly-reporting-automated-2-42fa4bde6e-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/monthly-reporting-automated-2-42fa4bde6e-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/monthly-reporting-automated-2-42fa4bde6e-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 9,
+  "image": "projects/gallery/monthly-reporting-automated-2-42fa4bde6e.jpg",
+  "video": "",
+  "caption": "Placeholder — system",
+  "caption_ar": "صورة مؤقتة — النظام",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 28,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/bilingual-corporate-platform-0-ff15d80414.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/bilingual-corporate-platform-0-ff15d80414-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 10,
+  "image": "projects/gallery/bilingual-corporate-platform-0-ff15d80414.jpg",
+  "video": "",
+  "caption": "Placeholder — key visual",
+  "caption_ar": "صورة مؤقتة — المشهد الرئيسي",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 29,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/bilingual-corporate-platform-1-4ee12c8c90.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/bilingual-corporate-platform-1-4ee12c8c90-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/bilingual-corporate-platform-1-4ee12c8c90-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/bilingual-corporate-platform-1-4ee12c8c90-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/bilingual-corporate-platform-1-4ee12c8c90-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/bilingual-corporate-platform-1-4ee12c8c90-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/bilingual-corporate-platform-1-4ee12c8c90-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/bilingual-corporate-platform-1-4ee12c8c90-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/bilingual-corporate-platform-1-4ee12c8c90-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 10,
+  "image": "projects/gallery/bilingual-corporate-platform-1-4ee12c8c90.jpg",
+  "video": "",
+  "caption": "Placeholder — detail",
+  "caption_ar": "صورة مؤقتة — تفصيل",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 30,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/bilingual-corporate-platform-2-cf8415a516.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/bilingual-corporate-platform-2-cf8415a516-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/bilingual-corporate-platform-2-cf8415a516-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/bilingual-corporate-platform-2-cf8415a516-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/bilingual-corporate-platform-2-cf8415a516-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/bilingual-corporate-platform-2-cf8415a516-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/bilingual-corporate-platform-2-cf8415a516-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/bilingual-corporate-platform-2-cf8415a516-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/bilingual-corporate-platform-2-cf8415a516-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 10,
+  "image": "projects/gallery/bilingual-corporate-platform-2-cf8415a516.jpg",
+  "video": "",
+  "caption": "Placeholder — system",
+  "caption_ar": "صورة مؤقتة — النظام",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 31,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/from-spreadsheets-to-system-0-b9aedccff5.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/from-spreadsheets-to-system-0-b9aedccff5-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 11,
+  "image": "projects/gallery/from-spreadsheets-to-system-0-b9aedccff5.jpg",
+  "video": "",
+  "caption": "Placeholder — key visual",
+  "caption_ar": "صورة مؤقتة — المشهد الرئيسي",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 32,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/from-spreadsheets-to-system-1-e733fb305e.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/from-spreadsheets-to-system-1-e733fb305e-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/from-spreadsheets-to-system-1-e733fb305e-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/from-spreadsheets-to-system-1-e733fb305e-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/from-spreadsheets-to-system-1-e733fb305e-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/from-spreadsheets-to-system-1-e733fb305e-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/from-spreadsheets-to-system-1-e733fb305e-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/from-spreadsheets-to-system-1-e733fb305e-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/from-spreadsheets-to-system-1-e733fb305e-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 11,
+  "image": "projects/gallery/from-spreadsheets-to-system-1-e733fb305e.jpg",
+  "video": "",
+  "caption": "Placeholder — detail",
+  "caption_ar": "صورة مؤقتة — تفصيل",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 33,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/from-spreadsheets-to-system-2-9c760d2f3f.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/from-spreadsheets-to-system-2-9c760d2f3f-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/from-spreadsheets-to-system-2-9c760d2f3f-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/from-spreadsheets-to-system-2-9c760d2f3f-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/from-spreadsheets-to-system-2-9c760d2f3f-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/from-spreadsheets-to-system-2-9c760d2f3f-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/from-spreadsheets-to-system-2-9c760d2f3f-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/from-spreadsheets-to-system-2-9c760d2f3f-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/from-spreadsheets-to-system-2-9c760d2f3f-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 11,
+  "image": "projects/gallery/from-spreadsheets-to-system-2-9c760d2f3f.jpg",
+  "video": "",
+  "caption": "Placeholder — system",
+  "caption_ar": "صورة مؤقتة — النظام",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 34,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/night-market-campaign-0-12cd46e774.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/night-market-campaign-0-12cd46e774-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 12,
+  "image": "projects/gallery/night-market-campaign-0-12cd46e774.jpg",
+  "video": "",
+  "caption": "Placeholder — key visual",
+  "caption_ar": "صورة مؤقتة — المشهد الرئيسي",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 35,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/night-market-campaign-1-1f3c8210be.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/night-market-campaign-1-1f3c8210be-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/night-market-campaign-1-1f3c8210be-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/night-market-campaign-1-1f3c8210be-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/night-market-campaign-1-1f3c8210be-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/night-market-campaign-1-1f3c8210be-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/night-market-campaign-1-1f3c8210be-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/night-market-campaign-1-1f3c8210be-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/night-market-campaign-1-1f3c8210be-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 12,
+  "image": "projects/gallery/night-market-campaign-1-1f3c8210be.jpg",
+  "video": "",
+  "caption": "Placeholder — detail",
+  "caption_ar": "صورة مؤقتة — تفصيل",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 36,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/night-market-campaign-2-ece28f7e1e.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/night-market-campaign-2-ece28f7e1e-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/night-market-campaign-2-ece28f7e1e-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/night-market-campaign-2-ece28f7e1e-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/night-market-campaign-2-ece28f7e1e-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/night-market-campaign-2-ece28f7e1e-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/night-market-campaign-2-ece28f7e1e-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/night-market-campaign-2-ece28f7e1e-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/night-market-campaign-2-ece28f7e1e-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 12,
+  "image": "projects/gallery/night-market-campaign-2-ece28f7e1e.jpg",
+  "video": "",
+  "caption": "Placeholder — system",
+  "caption_ar": "صورة مؤقتة — النظام",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 37,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/arabic-ai-call-assistant-0-2f120da16d.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/arabic-ai-call-assistant-0-2f120da16d-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 13,
+  "image": "projects/gallery/arabic-ai-call-assistant-0-2f120da16d.jpg",
+  "video": "",
+  "caption": "Placeholder — key visual",
+  "caption_ar": "صورة مؤقتة — المشهد الرئيسي",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 38,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/arabic-ai-call-assistant-1-8dde47674a.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/arabic-ai-call-assistant-1-8dde47674a-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/arabic-ai-call-assistant-1-8dde47674a-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/arabic-ai-call-assistant-1-8dde47674a-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/arabic-ai-call-assistant-1-8dde47674a-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/arabic-ai-call-assistant-1-8dde47674a-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/arabic-ai-call-assistant-1-8dde47674a-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/arabic-ai-call-assistant-1-8dde47674a-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/arabic-ai-call-assistant-1-8dde47674a-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 13,
+  "image": "projects/gallery/arabic-ai-call-assistant-1-8dde47674a.jpg",
+  "video": "",
+  "caption": "Placeholder — detail",
+  "caption_ar": "صورة مؤقتة — تفصيل",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 39,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/arabic-ai-call-assistant-2-39ef15e159.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/arabic-ai-call-assistant-2-39ef15e159-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/arabic-ai-call-assistant-2-39ef15e159-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/arabic-ai-call-assistant-2-39ef15e159-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/arabic-ai-call-assistant-2-39ef15e159-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/arabic-ai-call-assistant-2-39ef15e159-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/arabic-ai-call-assistant-2-39ef15e159-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/arabic-ai-call-assistant-2-39ef15e159-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/arabic-ai-call-assistant-2-39ef15e159-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 13,
+  "image": "projects/gallery/arabic-ai-call-assistant-2-39ef15e159.jpg",
+  "video": "",
+  "caption": "Placeholder — system",
+  "caption_ar": "صورة مؤقتة — النظام",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 40,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/clinic-booking-web-app-0-90b5f95cac.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/clinic-booking-web-app-0-90b5f95cac-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 14,
+  "image": "projects/gallery/clinic-booking-web-app-0-90b5f95cac.jpg",
+  "video": "",
+  "caption": "Placeholder — key visual",
+  "caption_ar": "صورة مؤقتة — المشهد الرئيسي",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 41,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/clinic-booking-web-app-1-66b7c4fbc3.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/clinic-booking-web-app-1-66b7c4fbc3-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/clinic-booking-web-app-1-66b7c4fbc3-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/clinic-booking-web-app-1-66b7c4fbc3-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/clinic-booking-web-app-1-66b7c4fbc3-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/clinic-booking-web-app-1-66b7c4fbc3-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/clinic-booking-web-app-1-66b7c4fbc3-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/clinic-booking-web-app-1-66b7c4fbc3-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/clinic-booking-web-app-1-66b7c4fbc3-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 14,
+  "image": "projects/gallery/clinic-booking-web-app-1-66b7c4fbc3.jpg",
+  "video": "",
+  "caption": "Placeholder — detail",
+  "caption_ar": "صورة مؤقتة — تفصيل",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 42,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/clinic-booking-web-app-2-634152b5b2.jpg",
+    "width": 1400,
+    "height": 1750,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/clinic-booking-web-app-2-634152b5b2-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/clinic-booking-web-app-2-634152b5b2-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/clinic-booking-web-app-2-634152b5b2-1200.webp"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/clinic-booking-web-app-2-634152b5b2-1400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/clinic-booking-web-app-2-634152b5b2-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/clinic-booking-web-app-2-634152b5b2-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/clinic-booking-web-app-2-634152b5b2-1200.avif"
+     ],
+     [
+      1400,
+      "projects/gallery/variants/clinic-booking-web-app-2-634152b5b2-1400.avif"
+     ]
+    ]
+   }
+  },
+  "project": 14,
+  "image": "projects/gallery/clinic-booking-web-app-2-634152b5b2.jpg",
+  "video": "",
+  "caption": "Placeholder — system",
+  "caption_ar": "صورة مؤقتة — النظام",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 43,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/nabatati-g1-a175e5b2a8.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/nabatati-g1-a175e5b2a8-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 15,
+  "image": "projects/gallery/nabatati-g1-a175e5b2a8.jpg",
+  "video": "",
+  "caption": "Services: AI diagnosis, smart chatbot and expert consultations",
+  "caption_ar": "الخدمات: التشخيص الذكي، والمساعد الذكي، واستشارات الخبراء",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 44,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/nabatati-g2-a785db199c.jpg",
+    "width": 1404,
+    "height": 1757,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/nabatati-g2-a785db199c-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/nabatati-g2-a785db199c-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/nabatati-g2-a785db199c-1200.webp"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/nabatati-g2-a785db199c-1404.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/nabatati-g2-a785db199c-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/nabatati-g2-a785db199c-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/nabatati-g2-a785db199c-1200.avif"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/nabatati-g2-a785db199c-1404.avif"
+     ]
+    ]
+   }
+  },
+  "project": 15,
+  "image": "projects/gallery/nabatati-g2-a785db199c.jpg",
+  "video": "",
+  "caption": "Home page on mobile",
+  "caption_ar": "الصفحة الرئيسية على الهاتف",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 45,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/nabatati-g3-02eb73f391.jpg",
+    "width": 1404,
+    "height": 1757,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/nabatati-g3-02eb73f391-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/nabatati-g3-02eb73f391-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/nabatati-g3-02eb73f391-1200.webp"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/nabatati-g3-02eb73f391-1404.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/nabatati-g3-02eb73f391-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/nabatati-g3-02eb73f391-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/nabatati-g3-02eb73f391-1200.avif"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/nabatati-g3-02eb73f391-1404.avif"
+     ]
+    ]
+   }
+  },
+  "project": 15,
+  "image": "projects/gallery/nabatati-g3-02eb73f391.jpg",
+  "video": "",
+  "caption": "Sign-in screen on mobile",
+  "caption_ar": "شاشة تسجيل الدخول على الهاتف",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 46,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/lingovoice-g1-c6734654eb.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/lingovoice-g1-c6734654eb-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 16,
+  "image": "projects/gallery/lingovoice-g1-c6734654eb.jpg",
+  "video": "",
+  "caption": "About page: learning languages through AI conversations",
+  "caption_ar": "صفحة من نحن: تعلّم اللغات عبر محادثات بالذكاء الاصطناعي",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 47,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/lingovoice-g2-34ac61e1dc.jpg",
+    "width": 1404,
+    "height": 1757,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/lingovoice-g2-34ac61e1dc-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/lingovoice-g2-34ac61e1dc-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/lingovoice-g2-34ac61e1dc-1200.webp"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/lingovoice-g2-34ac61e1dc-1404.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/lingovoice-g2-34ac61e1dc-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/lingovoice-g2-34ac61e1dc-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/lingovoice-g2-34ac61e1dc-1200.avif"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/lingovoice-g2-34ac61e1dc-1404.avif"
+     ]
+    ]
+   }
+  },
+  "project": 16,
+  "image": "projects/gallery/lingovoice-g2-34ac61e1dc.jpg",
+  "video": "",
+  "caption": "Home page on mobile",
+  "caption_ar": "الصفحة الرئيسية على الهاتف",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 48,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/lingovoice-g3-204b5d6c3b.jpg",
+    "width": 1404,
+    "height": 1757,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/lingovoice-g3-204b5d6c3b-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/lingovoice-g3-204b5d6c3b-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/lingovoice-g3-204b5d6c3b-1200.webp"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/lingovoice-g3-204b5d6c3b-1404.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/lingovoice-g3-204b5d6c3b-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/lingovoice-g3-204b5d6c3b-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/lingovoice-g3-204b5d6c3b-1200.avif"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/lingovoice-g3-204b5d6c3b-1404.avif"
+     ]
+    ]
+   }
+  },
+  "project": 16,
+  "image": "projects/gallery/lingovoice-g3-204b5d6c3b.jpg",
+  "video": "",
+  "caption": "Contact page on mobile",
+  "caption_ar": "صفحة التواصل على الهاتف",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 49,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/maktabati-bookstore-g1-91becec48c.jpg",
+    "width": 2400,
+    "height": 1500,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-1600.webp"
+     ],
+     [
+      2400,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-2400.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/maktabati-bookstore-g1-91becec48c-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 17,
+  "image": "projects/gallery/maktabati-bookstore-g1-91becec48c.jpg",
+  "video": "",
+  "caption": "Featured books and special offers",
+  "caption_ar": "الكتب المميزة والعروض الخاصة",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 50,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/maktabati-bookstore-g2-99cd27c91c.jpg",
+    "width": 1404,
+    "height": 1757,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/maktabati-bookstore-g2-99cd27c91c-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/maktabati-bookstore-g2-99cd27c91c-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/maktabati-bookstore-g2-99cd27c91c-1200.webp"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/maktabati-bookstore-g2-99cd27c91c-1404.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/maktabati-bookstore-g2-99cd27c91c-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/maktabati-bookstore-g2-99cd27c91c-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/maktabati-bookstore-g2-99cd27c91c-1200.avif"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/maktabati-bookstore-g2-99cd27c91c-1404.avif"
+     ]
+    ]
+   }
+  },
+  "project": 17,
+  "image": "projects/gallery/maktabati-bookstore-g2-99cd27c91c.jpg",
+  "video": "",
+  "caption": "Home page on mobile",
+  "caption_ar": "الصفحة الرئيسية على الهاتف",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 51,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/maktabati-bookstore-g3-7e85e980b3.jpg",
+    "width": 1404,
+    "height": 1757,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/maktabati-bookstore-g3-7e85e980b3-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/maktabati-bookstore-g3-7e85e980b3-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/maktabati-bookstore-g3-7e85e980b3-1200.webp"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/maktabati-bookstore-g3-7e85e980b3-1404.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/maktabati-bookstore-g3-7e85e980b3-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/maktabati-bookstore-g3-7e85e980b3-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/maktabati-bookstore-g3-7e85e980b3-1200.avif"
+     ],
+     [
+      1404,
+      "projects/gallery/variants/maktabati-bookstore-g3-7e85e980b3-1404.avif"
+     ]
+    ]
+   }
+  },
+  "project": 17,
+  "image": "projects/gallery/maktabati-bookstore-g3-7e85e980b3.jpg",
+  "video": "",
+  "caption": "Featured books on mobile",
+  "caption_ar": "الكتب المميزة على الهاتف",
+  "layout": "half",
+  "order": 2
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 55,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/what-does-royal-mean-g1-7d3cc7898c.jpg",
+    "width": 1920,
+    "height": 1080,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-800.webp"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-1200.webp"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-1600.webp"
+     ],
+     [
+      1920,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-1920.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-800.avif"
+     ],
+     [
+      1200,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-1200.avif"
+     ],
+     [
+      1600,
+      "projects/gallery/variants/what-does-royal-mean-g1-7d3cc7898c-1600.avif"
+     ]
+    ]
+   }
+  },
+  "project": 18,
+  "image": "projects/gallery/what-does-royal-mean-g1-7d3cc7898c.jpg",
+  "video": "",
+  "caption": "Take-off at golden hour",
+  "caption_ar": "الإقلاع في ساعة الغروب الذهبية",
+  "layout": "full",
+  "order": 0
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 56,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/what-does-royal-mean-g2-4ad9584621.jpg",
+    "width": 864,
+    "height": 1080,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/what-does-royal-mean-g2-4ad9584621-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/what-does-royal-mean-g2-4ad9584621-800.webp"
+     ],
+     [
+      864,
+      "projects/gallery/variants/what-does-royal-mean-g2-4ad9584621-864.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/what-does-royal-mean-g2-4ad9584621-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/what-does-royal-mean-g2-4ad9584621-800.avif"
+     ],
+     [
+      864,
+      "projects/gallery/variants/what-does-royal-mean-g2-4ad9584621-864.avif"
+     ]
+    ]
+   }
+  },
+  "project": 18,
+  "image": "projects/gallery/what-does-royal-mean-g2-4ad9584621.jpg",
+  "video": "",
+  "caption": "Petra, at the end of the Siq",
+  "caption_ar": "البترا، عند نهاية السيق",
+  "layout": "half",
+  "order": 1
+ }
+},
+{
+ "model": "projects.projectmedia",
+ "pk": 57,
+ "fields": {
+  "media_variants": {
+   "image": {
+    "source": "projects/gallery/what-does-royal-mean-g3-5db1719b34.jpg",
+    "width": 864,
+    "height": 1080,
+    "alpha": false,
+    "webp": [
+     [
+      480,
+      "projects/gallery/variants/what-does-royal-mean-g3-5db1719b34-480.webp"
+     ],
+     [
+      800,
+      "projects/gallery/variants/what-does-royal-mean-g3-5db1719b34-800.webp"
+     ],
+     [
+      864,
+      "projects/gallery/variants/what-does-royal-mean-g3-5db1719b34-864.webp"
+     ]
+    ],
+    "avif": [
+     [
+      480,
+      "projects/gallery/variants/what-does-royal-mean-g3-5db1719b34-480.avif"
+     ],
+     [
+      800,
+      "projects/gallery/variants/what-does-royal-mean-g3-5db1719b34-800.avif"
+     ],
+     [
+      864,
+      "projects/gallery/variants/what-does-royal-mean-g3-5db1719b34-864.avif"
+     ]
+    ]
+   }
+  },
+  "project": 18,
+  "image": "projects/gallery/what-does-royal-mean-g3-5db1719b34.jpg",
+  "video": "",
+  "caption": "Through the terminal",
+  "caption_ar": "عبر صالة المطار",
+  "layout": "half",
+  "order": 2
+ }
+}
+]

@@ -1,0 +1,5 @@
+{% load i18n %}<div class="lang-switch{% if extra_class %} {{ extra_class }}{% endif %}" role="group" aria-label="{% translate 'Language' %}">
+  <a class="lang-switch__link" href="{{ ALT_URLS.en }}" hreflang="en" lang="en" data-lang-link="en"{% if LANG == 'en' %} aria-current="true"{% endif %} aria-label="English">EN</a>
+  <span class="lang-switch__sep" aria-hidden="true">/</span>
+  <a class="lang-switch__link" href="{{ ALT_URLS.ar }}" hreflang="ar" lang="ar" data-lang-link="ar"{% if LANG == 'ar' %} aria-current="true"{% endif %} aria-label="العربية">AR</a>
+</div>

@@ -1,0 +1,75 @@
+{% load static i18n %}
+<section class="services section" id="services" data-nav-theme="dark" data-nav-section="services" aria-labelledby="services-title">
+  <div class="container">
+    {% translate "What we do" as label %}{% translate "Our services." as line1 %}{% translate "Built around real work." as line2 %}
+    {% translate "From the workflow behind the business to the website customers see, we design each part to work together." as lead %}
+    {% translate "We start with the problem, then choose the right technology." as sub %}
+    {% include "partials/section_head.html" with num="01" heading_id="services-title" %}
+  </div>
+
+  <div class="services__story" data-services>
+    <div class="services__sticky">
+      <div class="services__layout container">
+        <div class="services__index">
+          <div class="services__progress" aria-hidden="true"><span class="services__progress-fill"></span></div>
+          <ol class="svc-list" role="list">
+            {% for service in services %}
+            <li class="svc{% if forloop.first %} is-active{% endif %}" data-svc data-reveal data-reveal-y="40" data-reveal-delay="{{ forloop.counter0 }}e-1">
+              <h3 class="svc__heading">
+                <button class="svc__btn" type="button" id="svc-btn-{{ service.key }}" data-svc-btn
+                        aria-expanded="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="svc-panel-{{ service.key }}">
+                  <span class="svc__num" dir="ltr">{{ service.number }}</span>
+                  <span class="svc__title">{{ service.title }}</span>
+                  <span class="svc__icon" aria-hidden="true"><i></i><i></i></span>
+                </button>
+              </h3>
+              <div class="svc__panel" id="svc-panel-{{ service.key }}" role="region" aria-labelledby="svc-btn-{{ service.key }}" data-svc-panel>
+                <div class="svc__panel-clip">
+                  <div class="svc__panel-inner">
+                    <p class="svc__summary">{{ service.summary }}</p>
+                    <ul class="svc__tags" role="list" aria-label="{% translate 'Examples' %}">
+                      {% for example in service.examples %}<li>{{ example }}</li>{% endfor %}
+                    </ul>
+                    <div class="svc__media-inline media-frame{% if service.key == 'ai_video' %} media-frame--film{% endif %}">
+                      {% if service.media.type == "video" %}
+                        <video muted playsinline loop preload="none" poster="{% static service.media.poster %}"
+                               data-inview-play data-src="{% static service.media.src %}"{% if service.media.src_mobile %} data-src-mobile="{% static service.media.src_mobile %}"{% endif %}
+                               aria-label="{{ service.caption }}"></video>
+                      {% else %}
+                        <img src="{% static service.media.src %}" alt="" loading="lazy" decoding="async" width="1200" height="900">
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            {% endfor %}
+          </ol>
+        </div>
+
+        <div class="services__stage" aria-hidden="true" data-svc-stage>
+          {% for service in services %}
+          <div class="stage-layer{% if forloop.first %} is-active{% endif %}{% if service.key == 'ai_video' %} stage-layer--film{% endif %}" data-svc-layer>
+            {% if service.media.type == "video" %}
+              <video class="stage-layer__media" muted playsinline loop preload="none"
+                     poster="{% static service.media.poster %}" data-src="{% static service.media.src %}" data-stage-video></video>
+              <div class="film-ui" dir="ltr">
+                <span class="film-ui__rec"><i></i>REC</span>
+                <span class="film-ui__tc" dir="ltr" data-timecode>00:00:00:00</span>
+                <span class="film-ui__ratio" dir="ltr">2.39 : 1</span>
+                <span class="film-ui__corners"><i></i><i></i><i></i><i></i></span>
+              </div>
+            {% else %}
+              <img class="stage-layer__media" src="{% static service.media.src %}" alt="" loading="lazy" decoding="async" width="1200" height="900">
+            {% endif %}
+            <div class="stage-layer__meta">
+              <span class="stage-layer__num" dir="ltr">{{ service.number }}</span>
+              <span class="stage-layer__caption">{{ service.caption }}</span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

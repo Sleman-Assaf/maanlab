@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body_class %}page-home{% endblock %}
+
+{% block content %}
+  {% include "sections/hero.html" %}
+  {% include "sections/services.html" %}
+  {% include "sections/reel.html" %}
+  {% include "sections/projects.html" %}
+  <div class="curtain-pair">
+    {% include "sections/about.html" %}
+    {% include "sections/contact.html" %}
+  </div>
+{% endblock %}

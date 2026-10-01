@@ -1,0 +1,106 @@
+{% load i18n %}{% comment %}
+  Hero workflow sketch — manual input → automation → AI → connected systems → result.
+  Drawn line by line by static/js/modules/hero-workflow.js (stroke-dashoffset + GSAP).
+
+  Conventions
+    .wf-draw      drawable stroke; every one carries pathLength="1"
+    .wf-soft      secondary (lighter) line work
+    .wf-accent    burnt-orange accent (kept to ~10–15% of the drawing)
+    .wf-full      desktop/tablet only (database + API branch)
+    .wf-compact   mobile only (direct AI → result connector)
+    data-wf-step  logical groups animated as units by the timeline
+  The illustration never mirrors in RTL (dir="ltr" on the figure).
+{% endcomment %}
+<figure class="hero-workflow" data-hero-workflow dir="ltr">
+  <div class="hero-workflow__motion" data-hero-scale>
+    <svg class="wf" viewBox="0 0 560 760" role="img" aria-labelledby="wf-title" focusable="false" data-wf>
+      <title id="wf-title">{% translate "Illustration showing data moving from manual input through automation and AI into connected digital systems." %}</title>
+
+      <!-- Construction marks: measuring rule + registration crosses (fade in, not drawn) -->
+      <g class="wf-guides" data-wf-guides>
+        <path class="wf-guide" d="M112 44 V720"/>
+        <path class="wf-guide-ticks" d="M106 150h12 M106 277h12 M106 414h12 M106 572h12 M106 702h12"/>
+        <path class="wf-guide-marks" d="M40 40h12M46 34v12 M508 40h12M514 34v12 M40 722h12M46 716v12 M508 722h12M514 716v12"/>
+      </g>
+
+      <!-- 01 · Input: spreadsheet window -->
+      <g data-wf-step="sheet">
+        <g data-wf-part="frame">
+          <path class="wf-draw" pathLength="1" d="M148 46.5 C230 44.8 312 47.6 394 45.6"/>
+          <path class="wf-draw" pathLength="1" d="M386.2 38 C387.6 92 384.8 150 386.6 204"/>
+          <path class="wf-draw" pathLength="1" d="M394 196.2 C312 197.8 228 195.2 148 196.6"/>
+          <path class="wf-draw" pathLength="1" d="M155.8 204 C154.2 148 157.4 92 155.6 38"/>
+        </g>
+        <g data-wf-part="chrome">
+          <path class="wf-draw" pathLength="1" d="M156 72 C238 70.8 318 73 386 71.6"/>
+          <path class="wf-draw wf-soft" pathLength="1" d="M166 59a3 3 0 1 0 6 0a3 3 0 1 0 -6 0M178 59a3 3 0 1 0 6 0a3 3 0 1 0 -6 0M190 59a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/>
+        </g>
+        <g data-wf-part="grid">
+          <path class="wf-draw wf-soft" pathLength="1" d="M156 106 C240 105 312 107 386 105.6 M156 138 C236 139 316 137 386 138.4 M156 168 C240 167 310 169 386 167.6"/>
+          <path class="wf-draw wf-soft" pathLength="1" d="M232 72 C233 120 231 160 232.4 196 M310 72 C309 118 311 158 309.6 196"/>
+          <path class="wf-draw wf-soft" pathLength="1" d="M170 90h34 M246 90h26 M324 90h44 M170 122h22 M324 122h30 M170 153h40 M170 182h28 M246 182h30 M324 182h18"/>
+        </g>
+        <path class="wf-draw wf-accent" pathLength="1" data-wf-part="accent" d="M240 145 H302 V161 H240 Z"/>
+      </g>
+
+      <path class="wf-draw" pathLength="1" data-wf-step="link-a" d="M271 204 C271 228 303 226 303 252 M297.5 246.5 L303 252.5 L308.5 246.5"/>
+
+      <!-- 02 · Automation: connected nodes + repeat arc -->
+      <g data-wf-step="automation" class="wf-node">
+        <path class="wf-draw" pathLength="1" d="M240 300a11 11 0 1 0 22 0a11 11 0 1 0 -22 0 M292 277a11 11 0 1 0 22 0a11 11 0 1 0 -22 0 M344 301a11 11 0 1 0 22 0a11 11 0 1 0 -22 0"/>
+        <path class="wf-draw wf-soft" pathLength="1" d="M261.5 295.5 L292.8 281.5 M313.2 281.5 L344.5 296.5 M300 277a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"/>
+        <path class="wf-draw wf-soft" pathLength="1" d="M374 285 C389 292 389 312 374 319 M379.5 323.4 L373.5 319.4 L378.8 314.6"/>
+      </g>
+
+      <path class="wf-draw" pathLength="1" data-wf-step="link-b" d="M303 312 C302 336 285 340 285 364 M279.5 358.5 L285 364.5 L290.5 358.5"/>
+
+      <!-- 03 · AI: neutral processing unit -->
+      <g data-wf-step="ai" class="wf-node">
+        <path class="wf-draw" pathLength="1" d="M259 376 H311 Q323 376 323 388 V440 Q323 452 311 452 H259 Q247 452 247 440 V388 Q247 376 259 376 Z"/>
+        <path class="wf-draw wf-soft" pathLength="1" d="M267 376V367 M303 376V367 M247 396H238 M247 414H238 M247 432H238 M323 396H332 M323 414H332 M323 432H332 M267 452V461 M303 452V461"/>
+        <path class="wf-draw wf-accent" pathLength="1" d="M271 400 H299 V428 H271 Z M281.8 414a3.2 3.2 0 1 0 6.4 0a3.2 3.2 0 1 0 -6.4 0"/>
+      </g>
+
+      <!-- 04 · Connected systems: database + API (desktop/tablet) -->
+      <g class="wf-full">
+        <g data-wf-step="branches">
+          <path class="wf-draw" pathLength="1" d="M267 464 C264 498 190 494 180 530 M174.5 524.5 L180 530.5 L185.5 524.5"/>
+          <path class="wf-draw" pathLength="1" d="M303 464 C306 498 380 494 390 530 M384.5 524.5 L390 530.5 L395.5 524.5"/>
+        </g>
+        <g data-wf-step="database" class="wf-node">
+          <path class="wf-draw" pathLength="1" d="M142 544a38 10 0 1 0 76 0a38 10 0 1 0 -76 0"/>
+          <path class="wf-draw" pathLength="1" d="M142 544 V600 a38 10 0 0 0 76 0 V544"/>
+          <path class="wf-draw wf-soft" pathLength="1" d="M142 572 a38 10 0 0 0 76 0"/>
+        </g>
+        <g data-wf-step="api" class="wf-node">
+          <path class="wf-draw" pathLength="1" d="M362 538 H418 Q428 538 428 548 V592 Q428 602 418 602 H362 Q352 602 352 592 V548 Q352 538 362 538 Z"/>
+          <path class="wf-draw wf-soft" pathLength="1" d="M378 562 L368 570 L378 578 M402 562 L412 570 L402 578 M394 558 L386 582"/>
+        </g>
+        <g data-wf-step="merges">
+          <path class="wf-draw" pathLength="1" d="M180 612 C180 636 222 638 232 658"/>
+          <path class="wf-draw" pathLength="1" d="M390 604 C390 632 372 650 370 684"/>
+        </g>
+      </g>
+
+      <!-- Mobile: direct connector AI → result -->
+      <path class="wf-draw wf-compact" pathLength="1" data-wf-step="direct" d="M285 464 C290 548 240 600 244 656 M238.5 650.5 L244 656.5 L249.5 650.5"/>
+
+      <!-- 05 · Output: report + customer message -->
+      <g data-wf-step="result" class="wf-node">
+        <path class="wf-draw" pathLength="1" d="M182 662 H306 Q318 662 318 674 V730 Q318 742 306 742 H182 Q170 742 170 730 V674 Q170 662 182 662 Z"/>
+        <path class="wf-draw wf-soft" pathLength="1" d="M186 680 H232 M292 680 H302 M190 726 V708 M204 726 V698 M218 726 V704"/>
+        <path class="wf-draw wf-accent" pathLength="1" d="M234 724 C248 712 258 718 270 702 S288 688 300 684"/>
+        <path class="wf-draw" pathLength="1" d="M344 688 H394 Q406 688 406 700 V716 Q406 728 394 728 H356 L344 738 L346 728 Q332 727 332 715 V700 Q332 688 344 688 Z"/>
+        <path class="wf-draw wf-soft" pathLength="1" d="M346 702 H390 M346 714 H374"/>
+      </g>
+
+      <!-- Data dot routes (invisible) + the dot -->
+      <path class="wf-route" data-wf-route="full" d="M271 150 L271 204 C271 228 303 226 303 252 L303 277 L303 312 C302 336 285 340 285 364 L285 414 L267 452 L267 464 C264 498 190 494 180 530 L180 572 L180 612 C180 636 222 638 232 658 L232 700"/>
+      <path class="wf-route" data-wf-route="compact" d="M271 150 L271 204 C271 228 303 226 303 252 L303 277 L303 312 C302 336 285 340 285 364 L285 414 L285 464 C290 548 240 600 244 656 L244 700"/>
+      <g class="wf-dot" data-wf-dot>
+        <circle class="wf-dot__halo" r="8"/>
+        <circle class="wf-dot__core" r="3.4"/>
+      </g>
+    </svg>
+  </div>
+</figure>

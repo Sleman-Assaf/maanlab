@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+db.sqlite3
+/staticfiles/
+.DS_Store
+node_modules/
+
+# Site media (/media/) IS committed so a fresh deploy shows the same projects
+# (deploy/site_data.json). Re-encodable video sources stay local:
+/content/portfolio/royal-film/*.mp4

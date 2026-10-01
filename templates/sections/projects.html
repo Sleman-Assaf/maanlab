@@ -1,0 +1,36 @@
+{% load i18n maan %}
+<section class="projects section" id="projects" data-projects data-nav-theme="dark" data-nav-section="projects"
+         aria-labelledby="projects-title"
+         data-status-template="{% translate 'Showing {count} of {total} projects' %}"
+         data-label-view="{% translate 'View' %}" data-label-play="{% translate 'Play' %}">
+  <div class="container">
+    {% translate "Selected work" as label %}{% translate "Our projects." as line1 %}{% translate "Across code and content." as line2 %}
+    {% translate "A selection of software, automation, digital platforms and AI-made films." as lead %}
+    {% include "partials/section_head.html" with num="02" heading_id="projects-title" sub="" %}
+
+    <div class="filters" role="group" aria-label="{% translate 'Filter projects by category' %}" data-filters data-reveal data-reveal-y="30">
+      {% for f in filters %}
+        <a class="filter" href="?{% if f.key != 'all' %}category={{ f.key }}{% endif %}#projects" data-filter="{{ f.key }}"
+           aria-pressed="{% if f.key == active_category %}true{% else %}false{% endif %}">
+          <span class="filter__label">{{ f.label }}</span>
+          <span class="filter__count" dir="ltr">{{ f.count|pad2 }}</span>
+        </a>
+      {% endfor %}
+    </div>
+    <p class="sr-only" aria-live="polite" data-filter-status></p>
+
+    {% if projects %}
+    <ul class="project-grid" role="list" data-project-grid>
+      {% for p in projects %}
+        <li class="project-grid__item{% if p.featured %} is-wide{% endif %}" data-category="{{ p.categories_attr }}"
+            {% if active_category != 'all' and active_category not in p.categories %}hidden{% endif %}>
+          {% include "partials/project_card.html" with project=p index=forloop.counter %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <p class="projects__empty" data-empty {% if projects %}hidden{% endif %}>
+      {% translate "No projects in this category yet — new work is on the way." %}
+    </p>
+  </div>
+</section>

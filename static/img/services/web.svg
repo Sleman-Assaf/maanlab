@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid meet">
+  <!-- PLACEHOLDER visual — Web Development (layered interface system) -->
+  <defs>
+    <radialGradient id="bg" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1200 0 0 900 0 0)" cx="0.4" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#1e1a16"/>
+      <stop offset="1" stop-color="#0c0b0a"/>
+    </radialGradient>
+    <linearGradient id="img" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a2a1d"/>
+      <stop offset=".6" stop-color="#dd6b2f"/>
+      <stop offset="1" stop-color="#2a1d14"/>
+    </linearGradient>
+    <style>
+      .frame{fill:#141210;stroke:#c9b79c;stroke-opacity:.26}
+      .bar{fill:#c9b79c;fill-opacity:.35}
+      .soft{fill:#c9b79c;fill-opacity:.12}
+      .grid{stroke:#c9b79c;stroke-opacity:.07}
+      .float{animation:float 7s ease-in-out infinite}
+      .float2{animation:float 9s ease-in-out infinite reverse}
+      .caret{animation:blink 1.1s steps(2,jump-none) infinite}
+      @keyframes float{50%{transform:translateY(-10px)}}
+      @keyframes blink{50%{opacity:0}}
+      @media (prefers-reduced-motion: reduce){.float,.float2,.caret{animation:none}}
+    </style>
+  </defs>
+  <rect x="-1200" y="-900" width="3600" height="2700" fill="url(#bg)"/>
+  <g class="grid">
+    <path d="M100 0V900M200 0V900M300 0V900M400 0V900M500 0V900M600 0V900M700 0V900M800 0V900M900 0V900M1000 0V900M1100 0V900"/>
+    <path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200M0 600H1200M0 700H1200M0 800H1200"/>
+  </g>
+
+  <!-- Main browser frame -->
+  <g transform="translate(150 150)">
+    <rect class="frame" width="760" height="520" rx="18"/>
+    <circle cx="28" cy="28" r="6" fill="#c9b79c" fill-opacity=".3"/>
+    <circle cx="48" cy="28" r="6" fill="#c9b79c" fill-opacity=".3"/>
+    <circle cx="68" cy="28" r="6" fill="#dd6b2f"/>
+    <rect x="200" y="18" width="360" height="20" rx="10" class="soft"/>
+    <path d="M0 56 H760" stroke="#c9b79c" stroke-opacity=".2"/>
+    <!-- hero block -->
+    <rect x="40" y="96" width="300" height="26" rx="4" fill="#f2eee7" fill-opacity=".85"/>
+    <rect x="40" y="132" width="220" height="26" rx="4" fill="#dd6b2f"/>
+    <rect x="40" y="182" width="260" height="10" rx="5" class="bar"/>
+    <rect x="40" y="202" width="200" height="10" rx="5" class="bar"/>
+    <rect x="40" y="240" width="120" height="36" rx="18" fill="#dd6b2f"/>
+    <rect x="176" y="240" width="96" height="36" rx="18" fill="none" stroke="#c9b79c" stroke-opacity=".4"/>
+    <rect x="400" y="90" width="320" height="200" rx="12" fill="url(#img)" opacity=".85"/>
+    <!-- cards -->
+    <rect x="40" y="330" width="210" height="150" rx="12" class="soft"/>
+    <rect x="275" y="330" width="210" height="150" rx="12" class="soft"/>
+    <rect x="510" y="330" width="210" height="150" rx="12" class="soft"/>
+    <rect x="60" y="440" width="100" height="10" rx="5" class="bar"/>
+    <rect x="295" y="440" width="120" height="10" rx="5" class="bar"/>
+    <rect x="530" y="440" width="90" height="10" rx="5" class="bar"/>
+  </g>
+
+  <!-- Mobile frame (RTL mock) -->
+  <g class="float" transform="translate(830 300)">
+    <rect class="frame" width="230" height="440" rx="30"/>
+    <rect x="80" y="16" width="70" height="8" rx="4" class="soft"/>
+    <rect x="96" y="60" width="110" height="18" rx="4" fill="#f2eee7" fill-opacity=".85"/>
+    <rect x="126" y="86" width="80" height="18" rx="4" fill="#dd6b2f"/>
+    <rect x="56" y="120" width="150" height="8" rx="4" class="bar"/>
+    <rect x="86" y="136" width="120" height="8" rx="4" class="bar"/>
+    <rect x="24" y="170" width="182" height="120" rx="14" fill="url(#img)" opacity=".7"/>
+    <rect x="24" y="310" width="182" height="46" rx="12" class="soft"/>
+    <rect x="24" y="366" width="182" height="46" rx="23" fill="#dd6b2f"/>
+  </g>
+
+  <!-- Type specimen -->
+  <g class="float2" transform="translate(120 700)">
+    <rect class="frame" width="300" height="120" rx="14"/>
+    <text x="24" y="78" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="58" fill="#f2eee7" fill-opacity=".9">Aa</text>
+    <text x="140" y="78" font-family="Tahoma, Arial, sans-serif" font-weight="700" font-size="50" fill="#dd6b2f">أب</text>
+    <rect class="caret" x="238" y="34" width="2" height="54" fill="#dd6b2f"/>
+  </g>
+</svg>

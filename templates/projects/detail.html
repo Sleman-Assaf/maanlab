@@ -1,0 +1,173 @@
+{% extends "base.html" %}
+{% load static i18n maan %}
+{% block body_class %}page-project{% endblock %}
+
+{% block head_extra %}
+  {% if project.poster_url %}<link rel="preload" as="image" href="{{ project.poster_url }}">{% endif %}
+{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "{{ project.t.title|escapejs }}",
+  "description": "{{ project.t.short_description|escapejs }}",
+  "inLanguage": "{{ LANG }}",
+  "dateCreated": "{{ project.year }}",
+  "genre": "{{ project.get_category_display|escapejs }}",
+  "url": "{{ CANONICAL_URL }}",
+  {% if project.poster_url %}"image": "{{ SITE_URL }}{{ project.poster_url }}",{% endif %}
+  "creator": {"@type": "Organization", "name": "MAAN LAB"}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<article class="project-page">
+  <header class="project-hero container" id="top" data-nav-theme="dark" data-nav-section="projects">
+    <nav class="project-hero__crumbs" aria-label="{% translate 'Breadcrumb' %}">
+      <a class="link-back" href="{% url 'core:home' %}#projects">
+        {% include "partials/icons.html" with icon="arrow" %}<span>{% translate "All projects" %}</span>
+      </a>
+    </nav>
+
+    <p class="eyebrow" data-reveal data-reveal-y="30">
+      <span class="eyebrow__num">{{ project.get_category_display }}</span> <span class="eyebrow__sep">/</span> <span dir="ltr">{{ project.year }}</span>
+    </p>
+    <h1 class="display project-hero__title" data-split>{{ project.t.title }}</h1>
+    <div class="project-hero__row">
+      <p class="lead project-hero__lead" data-reveal data-reveal-delay=".3">{{ project.t.short_description }}</p>
+      <dl class="project-meta" data-reveal data-reveal-delay=".45">
+        {% if project.t.client %}
+        <div><dt>{% translate "Client" %}</dt><dd>{{ project.t.client }}</dd></div>
+        {% endif %}
+        <div><dt>{% translate "Year" %}</dt><dd dir="ltr">{{ project.year }}</dd></div>
+        <div><dt>{% translate "Category" %}</dt><dd>{{ project.get_category_display }}</dd></div>
+      </dl>
+    </div>
+    {% if project.live_url or project.repo_url or project.film %}
+    <div class="project-links" data-reveal data-reveal-delay=".55">
+      {% if project.film %}
+        <a class="btn btn--primary" href="#film">
+          <span>{% translate "Watch the film" %}</span>{% include "partials/icons.html" with icon="play" %}
+        </a>
+      {% endif %}
+      {% if project.live_url %}
+        <a class="btn btn--primary" href="{{ project.live_url }}" target="_blank" rel="noopener">
+          <span>{% translate "Visit live site" %}</span>{% include "partials/icons.html" with icon="arrow-up-right" %}
+        </a>
+      {% endif %}
+      {% if project.repo_url %}
+        <a class="link-arrow" href="{{ project.repo_url }}" target="_blank" rel="noopener">
+          <span class="link-arrow__text">{% translate "View source code" %}</span>{% include "partials/icons.html" with icon="arrow-up-right" %}
+        </a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </header>
+
+  <figure class="project-cover" data-project-cover>
+    <div class="project-cover__frame shutter{% if project.cover_fit == "screen" and not project.has_video %} is-screen{% endif %}" data-shutter>
+      <div class="project-cover__media" data-project-cover-media>
+        {% if project.has_video %}
+          {# The source is picked by screen size in videos.js (phone copy when there is one). #}
+          <video class="project-cover__video" muted playsinline loop preload="none" data-inview-play
+                 data-src="{{ project.cover_video.url }}"{% if project.cover_video_mobile %} data-src-mobile="{{ project.cover_video_mobile.url }}"{% endif %}
+                 {% if project.poster_url %}poster="{{ project.poster_url }}"{% endif %} aria-label="{{ project.t.title }}"></video>
+        {% elif project.cover_image %}
+          {% picture project "cover_image" sizes="100vw" alt=project.t.title loading="eager" fetchpriority="high" %}
+        {% endif %}
+      </div>
+      {% if project.has_video %}
+      <button class="video-toggle" type="button" data-video-toggle aria-pressed="false"
+              data-label-pause="{% translate 'Pause video' %}" data-label-play="{% translate 'Play video' %}">
+        <span class="video-toggle__icon video-toggle__icon--pause">{% include "partials/icons.html" with icon="pause" %}</span>
+        <span class="video-toggle__icon video-toggle__icon--play">{% include "partials/icons.html" with icon="play" %}</span>
+        <span class="sr-only" data-video-toggle-label>{% translate "Pause video" %}</span>
+      </button>
+      {% endif %}
+    </div>
+  </figure>
+
+  <section class="project-body container" aria-labelledby="overview-title">
+    <div class="project-body__aside">
+      <h2 class="eyebrow" id="overview-title" data-reveal data-reveal-y="30"><span class="eyebrow__num">01</span> <span class="eyebrow__sep">/</span> {% translate "Overview" %}</h2>
+      {% with deliverables=project.localized_deliverables %}
+      {% if deliverables %}
+        <h3 class="project-body__label" data-reveal>{% translate "Deliverables" %}</h3>
+        <ul class="project-body__list" role="list">
+          {% for item in deliverables %}<li data-reveal data-reveal-y="20" data-reveal-delay="{{ forloop.counter0 }}e-1">{{ item }}</li>{% endfor %}
+        </ul>
+      {% endif %}
+      {% endwith %}
+    </div>
+    <div class="project-body__text">
+      {% for paragraph in project.localized_paragraphs %}
+        <p class="{% if forloop.first %}project-body__intro{% else %}body-text{% endif %}" data-reveal data-reveal-threshold=".3">{{ paragraph|linebreaksbr }}</p>
+      {% empty %}
+        <p class="project-body__intro" data-reveal>{{ project.t.short_description }}</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if project.film %}
+  <section class="project-film container" id="film" aria-labelledby="film-title">
+    <h2 class="eyebrow" id="film-title" data-reveal data-reveal-y="30"><span class="eyebrow__num">02</span> <span class="eyebrow__sep">/</span> {% translate "The film" %}</h2>
+    <div class="project-film__frame" data-reveal data-reveal-y="40">
+      {# preload="none": nothing downloads until the visitor presses play. #}
+      <video class="project-film__video" controls playsinline preload="none"
+             {% if project.poster_url %}poster="{{ project.poster_url }}"{% endif %} aria-label="{{ project.t.title }}">
+        {% if project.film_mobile %}<source src="{{ project.film_mobile.url }}" media="(max-width: 809px)" type="video/mp4">{% endif %}
+        <source src="{{ project.film.url }}" type="video/{% if project.film.name|slice:'-4:' == 'webm' %}webm{% else %}mp4{% endif %}">
+      </video>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if gallery %}
+  <section class="project-gallery container" aria-label="{% translate 'Gallery' %}">
+    {% for item in gallery %}
+      <figure class="gallery-item gallery-item--{{ item.layout }}">
+        <div class="gallery-item__media media-frame shutter{% if project.cover_fit == "screen" and not item.video %} is-screen{% endif %}" data-shutter>
+          {% if item.video %}
+            <video muted playsinline loop preload="none" data-inview-play data-src="{{ item.video.url }}"
+                   {% if item.image %}poster="{{ item.image.url }}"{% endif %} aria-label="{{ item.t.caption }}"></video>
+          {% else %}
+            {% if item.layout == "half" %}
+              {% picture item "image" sizes="(min-width: 1024px) 46vw, 100vw" alt=item.t.caption %}
+            {% else %}
+              {% picture item "image" sizes="(min-width: 1024px) 92vw, 100vw" alt=item.t.caption %}
+            {% endif %}
+          {% endif %}
+        </div>
+        {% if item.t.caption %}<figcaption class="gallery-item__caption">{{ item.t.caption }}</figcaption>{% endif %}
+      </figure>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if next_project %}
+  <nav class="next-project container" aria-label="{% translate 'Next project' %}">
+    <a class="next-project__link" href="{{ next_project.get_absolute_url }}">
+      <span class="eyebrow">{% translate "Next project" %}</span>
+      <span class="next-project__title display">
+        <span>{{ next_project.t.title }}</span>
+        <span class="next-project__arrow">{% include "partials/icons.html" with icon="arrow" %}</span>
+      </span>
+      <span class="next-project__cat">{{ next_project.get_category_display }}</span>
+    </a>
+  </nav>
+  {% endif %}
+
+  <section class="project-cta container" aria-labelledby="project-cta-title">
+    <h2 class="display project-cta__title" id="project-cta-title" data-split>
+      <span class="line">{% translate "Have a project" %}</span>
+      <span class="line is-accent">{% translate "in mind?" %}</span>
+    </h2>
+    <a class="btn btn--primary btn--lg" href="{% url 'core:home' %}#contact">
+      <span>{% translate "Start a Project" %}</span>{% include "partials/icons.html" with icon="arrow" %}
+    </a>
+  </section>
+</article>
+{% endblock %}

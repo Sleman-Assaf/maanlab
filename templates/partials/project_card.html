@@ -1,0 +1,38 @@
+{% load i18n maan %}
+<article class="pcard{% if project.has_video %} pcard--video{% endif %}" data-pcard
+         {% if project.has_video %}data-hover-video="{{ project.cover_video.url }}"{% if project.cover_video_mobile %} data-hover-video-mobile="{{ project.cover_video_mobile.url }}"{% endif %}{% endif %}>
+  <a class="pcard__link" href="{{ project.get_absolute_url }}">
+    <div class="pcard__media shutter{% if project.cover_fit == "screen" %} is-screen{% endif %}" data-shutter>
+      {% if project.card_image_field %}
+        {% if project.featured %}
+          {% picture project project.card_image_field sizes="(min-width: 1024px) 92vw, 100vw" css="pcard__picture" %}
+        {% else %}
+          {% picture project project.card_image_field sizes="(min-width: 1024px) 46vw, 100vw" css="pcard__picture" %}
+        {% endif %}
+      {% endif %}
+      {% if project.has_video %}
+        {% if project.card_image_field %}
+          <video class="pcard__video" muted playsinline loop preload="none" aria-hidden="true" tabindex="-1"></video>
+        {% else %}
+          <video class="pcard__video pcard__video--base" muted playsinline loop preload="metadata" aria-hidden="true" tabindex="-1"
+                 src="{{ project.cover_video.url }}#t=0.1"></video>
+        {% endif %}
+        <span class="play-badge pcard__play">{% include "partials/icons.html" with icon="play" %}</span>
+      {% endif %}
+      <span class="pcard__cat"><span>{{ project.get_category_display }}</span></span>
+      <span class="pcard__cursor" aria-hidden="true" data-cursor>{% if project.has_video %}{% translate "Play" %}{% else %}{% translate "View" %}{% endif %}</span>
+    </div>
+    <div class="pcard__meta">
+      <span class="pcard__index" dir="ltr">({{ index|pad2 }})</span>
+      <div class="pcard__text">
+        <h3 class="pcard__title">{{ project.t.title }}</h3>
+        <p class="pcard__desc">{{ project.t.short_description }}</p>
+      </div>
+      <span class="pcard__arrow" aria-hidden="true">{% include "partials/icons.html" with icon="arrow-up-right" %}</span>
+      <p class="pcard__info">
+        {% if project.t.client %}<span>{{ project.t.client }}</span>{% endif %}
+        <span dir="ltr">{{ project.year }}</span>
+      </p>
+    </div>
+  </a>
+</article>

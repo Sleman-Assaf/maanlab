@@ -1,0 +1,64 @@
+{% load static i18n maan %}
+<section class="reel" data-reel data-nav-theme="dark" aria-labelledby="reel-title">
+  <div class="reel__head container">
+    <p class="eyebrow" data-reveal data-reveal-y="30">
+      <span class="eyebrow__num">{% translate "AI video production" %}</span>
+    </p>
+    <h2 class="display reel__title" id="reel-title" data-split>
+      <span class="line">{% translate "Ideas," %}</span>
+      <span class="line is-accent">{% translate "brought to life with AI." %}</span>
+    </h2>
+    <p class="lead reel__lead" data-reveal data-reveal-delay=".3">
+      {% translate "Commercials, product films and campaign visuals — from concept and storyboard to generation, edit and final grade, all handled in-house." %}
+    </p>
+  </div>
+
+  <div class="reel__stage">
+    <div class="reel__frame" data-reel-frame>
+      <div class="reel__media" data-reel-media>
+        {% if reel_project %}
+          <video class="reel__video" muted playsinline loop preload="none" data-inview-play
+                 {% if reel_project.poster_url %}poster="{{ reel_project.poster_url }}"{% endif %}
+                 data-src="{{ reel_project.cover_video.url }}"{% if reel_project.cover_video_mobile %} data-src-mobile="{{ reel_project.cover_video_mobile.url }}"{% endif %}
+                 aria-label="{{ reel_project.t.title }}"></video>
+        {% else %}
+          <video class="reel__video" muted playsinline loop preload="none" data-inview-play
+                 poster="{% static 'video/showreel-placeholder.webp' %}"
+                 data-src="{% static 'video/showreel-placeholder.mp4' %}" aria-label="{% translate 'Placeholder showreel' %}"></video>
+        {% endif %}
+      </div>
+      <div class="film-ui film-ui--reel" dir="ltr" aria-hidden="true">
+        <span class="film-ui__rec"><i></i>REC</span>
+        <span class="film-ui__tc" dir="ltr" data-timecode>00:00:00:00</span>
+        <span class="film-ui__ratio" dir="ltr">2.39 : 1</span>
+        <span class="film-ui__corners"><i></i><i></i><i></i><i></i></span>
+      </div>
+      <button class="video-toggle" type="button" data-video-toggle aria-pressed="false"
+              data-label-pause="{% translate 'Pause video' %}" data-label-play="{% translate 'Play video' %}">
+        <span class="video-toggle__icon video-toggle__icon--pause">{% include "partials/icons.html" with icon="pause" %}</span>
+        <span class="video-toggle__icon video-toggle__icon--play">{% include "partials/icons.html" with icon="play" %}</span>
+        <span class="sr-only" data-video-toggle-label>{% translate "Pause video" %}</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="reel__foot container">
+    <p class="reel__caption">
+      {% if reel_project %}
+        <span class="reel__caption-title">{{ reel_project.t.title }}</span>
+        <span class="reel__caption-meta">{% if reel_project.t.client %}{{ reel_project.t.client }} · {% endif %}<span dir="ltr">{{ reel_project.year }}</span></span>
+      {% else %}
+        <span class="reel__caption-title">{% translate "Showreel" %}</span>
+        <span class="reel__caption-meta placeholder-note">{% translate "Placeholder film — replace with a real production" %}</span>
+      {% endif %}
+    </p>
+    {% if reel_project.film %}
+    <a class="link-arrow" href="{{ reel_project.get_absolute_url }}#film">
+      <span class="link-arrow__text">{% translate "Watch the full film" %}</span>{% include "partials/icons.html" with icon="arrow-up-right" %}
+    </a>
+    {% endif %}
+    <a class="link-arrow" href="?category=ai_video#projects" data-filter-link="ai_video">
+      <span class="link-arrow__text">{% translate "See our AI video work" %}</span>{% include "partials/icons.html" with icon="arrow-up-right" %}
+    </a>
+  </div>
+</section>

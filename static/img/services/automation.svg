@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid meet">
+  <!-- PLACEHOLDER visual — AI & Automation (spreadsheet → process → report → inbox) -->
+  <defs>
+    <radialGradient id="bg" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1200 0 0 900 0 0)" cx="0.55" cy="0.45" r="0.75">
+      <stop offset="0" stop-color="#1f1b17"/>
+      <stop offset="1" stop-color="#0d0c0a"/>
+    </radialGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#c9b79c" fill-opacity=".10"/>
+    </pattern>
+    <style>
+      .ln{fill:none;stroke:#c9b79c;stroke-opacity:.35;stroke-width:1.2}
+      .cell{fill:#c9b79c;fill-opacity:.06;stroke:#c9b79c;stroke-opacity:.22}
+      .hot{fill:#dd6b2f;fill-opacity:.85}
+      .flow{fill:none;stroke:#dd6b2f;stroke-width:1.6;stroke-dasharray:6 10;animation:flow 1.6s linear infinite}
+      .spin{transform-origin:600px 450px;animation:spin 14s linear infinite}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-32}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes pulse{50%{opacity:.35}}
+      @media (prefers-reduced-motion: reduce){.flow,.spin,.pulse{animation:none}}
+    </style>
+  </defs>
+  <rect x="-1200" y="-900" width="3600" height="2700" fill="url(#bg)"/>
+  <rect x="-1200" y="-900" width="3600" height="2700" fill="url(#dots)"/>
+
+  <!-- Spreadsheet -->
+  <g transform="translate(120 250)">
+    <rect x="-16" y="-40" width="312" height="440" rx="14" fill="#141210" stroke="#c9b79c" stroke-opacity=".25"/>
+    <rect x="0" y="-22" width="90" height="8" rx="4" fill="#c9b79c" fill-opacity=".4"/>
+    <g>
+      <rect class="cell" x="0" y="0" width="84" height="36"/><rect class="cell" x="96" y="0" width="84" height="36"/><rect class="cell" x="192" y="0" width="84" height="36"/>
+      <rect class="cell" x="0" y="48" width="84" height="36"/><rect class="hot pulse" x="96" y="48" width="84" height="36"/><rect class="cell" x="192" y="48" width="84" height="36"/>
+      <rect class="cell" x="0" y="96" width="84" height="36"/><rect class="cell" x="96" y="96" width="84" height="36"/><rect class="cell" x="192" y="96" width="84" height="36"/>
+      <rect class="cell" x="0" y="144" width="84" height="36"/><rect class="cell" x="96" y="144" width="84" height="36"/><rect class="hot" x="192" y="144" width="84" height="36" fill-opacity=".5"/>
+      <rect class="cell" x="0" y="192" width="84" height="36"/><rect class="cell" x="96" y="192" width="84" height="36"/><rect class="cell" x="192" y="192" width="84" height="36"/>
+      <rect class="cell" x="0" y="240" width="84" height="36"/><rect class="cell" x="96" y="240" width="84" height="36"/><rect class="cell" x="192" y="240" width="84" height="36"/>
+      <rect class="cell" x="0" y="288" width="84" height="36"/><rect class="hot pulse" x="96" y="288" width="84" height="36" fill-opacity=".6"/><rect class="cell" x="192" y="288" width="84" height="36"/>
+      <rect class="cell" x="0" y="336" width="84" height="36"/><rect class="cell" x="96" y="336" width="84" height="36"/><rect class="cell" x="192" y="336" width="84" height="36"/>
+    </g>
+  </g>
+
+  <!-- Connectors -->
+  <path class="ln" d="M420 450 C 480 450, 500 450, 520 450"/>
+  <path class="flow" d="M420 450 C 480 450, 500 450, 520 450"/>
+  <path class="ln" d="M680 450 C 740 450, 740 330, 800 330"/>
+  <path class="flow" d="M680 450 C 740 450, 740 330, 800 330"/>
+  <path class="ln" d="M680 450 C 740 450, 740 590, 800 590"/>
+  <path class="flow" d="M680 450 C 740 450, 740 590, 800 590"/>
+
+  <!-- Process node -->
+  <circle cx="600" cy="450" r="80" fill="#171513" stroke="#c9b79c" stroke-opacity=".3"/>
+  <circle class="spin" cx="600" cy="450" r="104" fill="none" stroke="#c9b79c" stroke-opacity=".35" stroke-dasharray="2 12"/>
+  <circle cx="600" cy="450" r="26" fill="#dd6b2f"/>
+  <circle cx="600" cy="450" r="44" fill="none" stroke="#dd6b2f" stroke-opacity=".5"/>
+
+  <!-- Report -->
+  <g transform="translate(800 230)">
+    <rect width="220" height="200" rx="14" fill="#141210" stroke="#c9b79c" stroke-opacity=".25"/>
+    <rect x="24" y="28" width="96" height="8" rx="4" fill="#c9b79c" fill-opacity=".45"/>
+    <rect x="24" y="150" width="20" height="26" fill="#c9b79c" fill-opacity=".3"/>
+    <rect x="54" y="120" width="20" height="56" fill="#c9b79c" fill-opacity=".3"/>
+    <rect x="84" y="96" width="20" height="80" fill="#dd6b2f"/>
+    <rect x="114" y="130" width="20" height="46" fill="#c9b79c" fill-opacity=".3"/>
+    <rect x="144" y="78" width="20" height="98" fill="#c9b79c" fill-opacity=".5"/>
+    <path d="M24 60 H196" class="ln"/>
+  </g>
+
+  <!-- Inbox -->
+  <g transform="translate(800 520)">
+    <rect width="220" height="140" rx="14" fill="#141210" stroke="#c9b79c" stroke-opacity=".25"/>
+    <path d="M40 40 H180 V104 H40 Z" fill="none" stroke="#c9b79c" stroke-opacity=".5" stroke-width="1.4"/>
+    <path d="M40 40 L110 82 L180 40" fill="none" stroke="#c9b79c" stroke-opacity=".5" stroke-width="1.4"/>
+    <circle class="pulse" cx="184" cy="36" r="9" fill="#dd6b2f"/>
+  </g>
+</svg>

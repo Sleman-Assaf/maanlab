@@ -1,0 +1,1185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: maanlab\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#: contact\admin.py
+msgid "%(count)d message(s) marked as read."
+msgstr "تم تعليم %(count)d رسالة كمقروءة."
+
+#: contact\admin.py
+msgid "%(count)d message(s) marked as unread."
+msgstr "تم تعليم %(count)d رسالة كغير مقروءة."
+
+#: core\validators.py
+msgid "%(label)s must be smaller than %(limit)s MB."
+msgstr "يجب أن يكون حجم %(label)s أقل من %(limit)s ميغابايت."
+
+#: contact\forms.py
+msgid "A little more detail helps — at least 10 characters."
+msgstr "يرجى إضافة تفاصيل أكثر — 10 أحرف على الأقل."
+
+#: templates\sections\projects.html
+msgid "A selection of software, automation, digital platforms and AI-made films."
+msgstr "مجموعة من أعمالنا في تطوير البرمجيات، والأتمتة، والمنصات الرقمية، والإنتاج البصري بالذكاء الاصطناعي."
+
+#: contact\models.py core\content.py projects\models.py templates\partials\footer.html
+msgid "AI & Automation"
+msgstr "الذكاء الاصطناعي والأتمتة"
+
+#: core\views.py
+msgid "AI & automation, web development, AI video production and digital transformation — built by MAAN LAB in Ma'an, Jordan."
+msgstr "الذكاء الاصطناعي والأتمتة، وتطوير المواقع والأنظمة، وإنتاج الفيديو بالذكاء الاصطناعي، والتحول الرقمي — من MAAN LAB في معان، الأردن."
+
+#: projects\models.py
+msgid "AI Video"
+msgstr "فيديو بالذكاء الاصطناعي"
+
+#: contact\models.py core\content.py templates\partials\footer.html
+msgid "AI Video Generation"
+msgstr "إنتاج الفيديو بالذكاء الاصطناعي"
+
+#: core\content.py
+msgid "AI agents"
+msgstr "المساعدون والوكلاء الأذكياء"
+
+#: core\content.py
+msgid "AI commercials"
+msgstr "إعلانات بالذكاء الاصطناعي"
+
+#: core\content.py
+msgid "AI production"
+msgstr "الإنتاج بالذكاء الاصطناعي"
+
+#: templates\sections\reel.html
+msgid "AI video production"
+msgstr "إنتاج الفيديو بالذكاء الاصطناعي"
+
+#: core\content.py
+msgid "AI visual production"
+msgstr "الإنتاج البصري بالذكاء الاصطناعي"
+
+#: core\content.py
+msgid "API integration"
+msgstr "ربط الأنظمة والخدمات عبر API"
+
+#: templates\sections\hero.html
+msgid "AR · EN"
+msgstr "عربي · EN"
+
+#: templates\partials\footer.html templates\partials\navbar.html
+msgid "About"
+msgstr "من نحن"
+
+#: core\admin.py
+msgid "Accessibility"
+msgstr "إمكانية الوصول"
+
+#: templates\sections\projects.html
+msgid "Across code and content."
+msgstr "بين التقنية والإبداع."
+
+#: projects\admin.py
+msgid "Add a cover image OR a cover video (or both — the image then becomes the video poster). Responsive WebP/AVIF versions are generated automatically."
+msgstr "أضف صورة غلاف أو فيديو غلاف (أو كليهما — تصبح الصورة عندها غلافاً للفيديو). تُنشأ نسخ WebP/AVIF متجاوبة تلقائياً."
+
+#: projects\models.py
+msgid "Add a cover image or a cover video — at least one is required."
+msgstr "أضف صورة غلاف أو فيديو غلاف — أحدهما على الأقل مطلوب."
+
+#: projects\models.py
+msgid "Add an image or a video."
+msgstr "أضف صورة أو فيديو."
+
+#: core\models.py
+msgid "Add an object image or a video."
+msgstr "أضف صورة للمجسّم أو فيديو."
+
+#: core\views.py
+msgid "All"
+msgstr "الكل"
+
+#: templates\projects\detail.html
+msgid "All projects"
+msgstr "جميع المشاريع"
+
+#: core\content.py
+msgid "An AI-made airline film — from the cabin to Petra"
+msgstr "فيلم طيران مُنتَج بالذكاء الاصطناعي — من المقصورة إلى البترا"
+
+#: config\settings.py
+msgid "Arabic"
+msgstr "العربية"
+
+#: core\content.py
+msgid "Arabic AI call center"
+msgstr "مراكز اتصال ذكية باللغة العربية"
+
+#: templates\sections\about.html
+msgid "Arabic and English, designed together from day one."
+msgstr "نصمّم التجربة بالعربية والإنجليزية معًا منذ البداية، لا كترجمة لاحقة."
+
+#: projects\admin.py
+msgid "Arabic — العربية"
+msgstr "العربية"
+
+#: core\content.py
+msgid "Automated reporting"
+msgstr "إعداد التقارير تلقائيًا"
+
+#: core\content.py
+msgid "Automation"
+msgstr "الأتمتة"
+
+#: templates\sections\about.html
+msgid "Automation, software, AI video and digital transformation — one team."
+msgstr "البرمجيات، والأتمتة، والذكاء الاصطناعي، والإنتاج الرقمي — فريق واحد."
+
+#: templates\404.html
+msgid "Back to home"
+msgstr "العودة إلى الرئيسية"
+
+#: templates\partials\footer.html
+msgid "Back to top"
+msgstr "العودة إلى الأعلى"
+
+#: templates\sections\about.html
+msgid "Based in Ma'an, Jordan."
+msgstr "مقرّنا في معان، الأردن."
+
+#: templates\sections\hero.html
+msgid "Bilingual by design"
+msgstr "العربية والإنجليزية"
+
+#: templates\projects\detail.html
+msgid "Breadcrumb"
+msgstr "مسار التنقل"
+
+#: templates\sections\services.html
+msgid "Built around real work."
+msgstr "مصممة لتخدم عملك."
+
+#: templates\sections\about.html
+msgid "Built beyond borders."
+msgstr "وطموحنا يتجاوز الحدود."
+
+#: templates\partials\footer.html
+msgid "Built for what's next."
+msgstr "نصنع ما هو قادم."
+
+#: core\content.py
+msgid "Business process redesign"
+msgstr "إعادة تصميم عمليات العمل"
+
+#: templates\sections\about.html templates\sections\hero.html
+msgid "Capabilities"
+msgstr "مجالاتنا"
+
+#: templates\projects\detail.html
+msgid "Category"
+msgstr "المجال"
+
+#: contact\forms.py
+msgid "Choose the service you're interested in."
+msgstr "اختر الخدمة التي تهمك."
+
+#: core\content.py
+msgid "Cinematic brand videos"
+msgstr "أفلام العلامات التجارية"
+
+#: projects\admin.py
+msgid "Classification"
+msgstr "التصنيف"
+
+#: core\content.py
+msgid "Clear interfaces, structured systems, smooth experiences"
+msgstr "واجهات واضحة، وأنظمة منظمة، وتجربة استخدام سلسة"
+
+#: templates\projects\detail.html
+msgid "Client"
+msgstr "العميل"
+
+#: templates\partials\navbar.html
+msgid "Close menu"
+msgstr "إغلاق القائمة"
+
+#: templates\sections\reel.html
+msgid "Commercials, product films and campaign visuals — from concept and storyboard to generation, edit and final grade, all handled in-house."
+msgstr "إعلانات، وفيديوهات منتجات، ومحتوى للحملات — من الفكرة والسيناريو والـStoryboard إلى التوليد والمونتاج والمعالجة النهائية، جميعها ضمن عملية إنتاج متكاملة."
+
+#: core\content.py
+msgid "Commercials, product films and social content created with AI — from concept and storyboard to the final edit."
+msgstr "نحوّل الأفكار إلى محتوى بصري متكامل، من تطوير الفكرة والسيناريو والـStoryboard إلى التوليد والمونتاج والإخراج النهائي."
+
+#: contact\forms.py
+msgid "Company / Business"
+msgstr "الشركة أو المشروع"
+
+#: core\content.py
+msgid "Concept development"
+msgstr "تطوير الأفكار الإبداعية"
+
+#: templates\partials\footer.html templates\partials\navbar.html
+msgid "Contact"
+msgstr "تواصل معنا"
+
+#: templates\sections\contact.html
+msgid "Contact us"
+msgstr "تواصل معنا"
+
+#: core\content.py
+msgid "Corporate websites"
+msgstr "مواقع الشركات"
+
+#: templates\sections\hero.html
+msgid "Creative Technology Studio"
+msgstr "استوديو للتقنية والإبداع"
+
+#: core\content.py
+msgid "Creative thinking"
+msgstr "التفكير الإبداعي"
+
+#: core\content.py
+msgid "Custom platforms"
+msgstr "المنصات المخصصة"
+
+#: core\content.py
+msgid "Dashboards"
+msgstr "لوحات المعلومات والتقارير"
+
+#: templates\projects\detail.html
+msgid "Deliverables"
+msgstr "المخرجات"
+
+#: contact\models.py core\content.py projects\models.py templates\partials\footer.html
+msgid "Digital Transformation"
+msgstr "التحول الرقمي"
+
+#: templates\sections\hero.html
+msgid "Digital ideas."
+msgstr "أفكار رقمية."
+
+#: core\content.py
+msgid "Digitizing manual workflows"
+msgstr "رقمنة الإجراءات اليدوية"
+
+#: contact\forms.py templates\sections\contact.html
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: core\content.py
+msgid "Engineering"
+msgstr "الهندسة والتطوير"
+
+#: config\settings.py projects\admin.py
+msgid "English"
+msgstr "English"
+
+#: templates\sections\services.html
+msgid "Examples"
+msgstr "أمثلة على ما نقدمه"
+
+#: core\content.py
+msgid "Excel automation"
+msgstr "أتمتة ملفات Excel والبيانات"
+
+#: projects\admin.py projects\models.py
+msgid "Extra categories whose filter should also list this project (optional)."
+msgstr "تصنيفات إضافية يظهر فيها هذا المشروع عند التصفية (اختياري)."
+
+#: projects\models.py
+msgid "Fill the frame — photos and videos"
+msgstr "ملء الإطار — للصور ومقاطع الفيديو"
+
+#: templates\sections\projects.html
+msgid "Filter projects by category"
+msgstr "تصفية المشاريع حسب المجال"
+
+#: core\models.py
+msgid "First frame of the video. Loaded before the video."
+msgstr "الإطار الأول من الفيديو، يُحمَّل قبل الفيديو."
+
+#: templates\sections\about.html
+msgid "From Ma'an."
+msgstr "بدأنا من معان."
+
+#: templates\partials\footer.html
+msgctxt "footer statement"
+msgid "From Ma'an."
+msgstr "من معان."
+
+#: core\content.py
+msgid "From scattered tools to one connected workflow"
+msgstr "من أدوات متفرقة إلى سير عمل واحد مترابط"
+
+#: core\content.py
+msgid "From spreadsheet to report to inbox — automatically"
+msgstr "من ملف Excel إلى التقرير ثم البريد — تلقائيًا"
+
+#: templates\sections\services.html
+msgid "From the workflow behind the business to the website customers see, we design each part to work together."
+msgstr "من العمليات الداخلية إلى التجربة التي يراها عميلك، نبني حلولًا مترابطة تعمل معًا بوضوح وكفاءة."
+
+#: projects\models.py
+msgid "Full case study text. Separate paragraphs with an empty line."
+msgstr "النص الكامل لدراسة الحالة. افصل الفقرات بسطر فارغ."
+
+#: projects\models.py
+msgid "Full width"
+msgstr "عرض كامل"
+
+#: templates\projects\detail.html
+msgid "Gallery"
+msgstr "معرض المشروع"
+
+#: projects\models.py
+msgid "Half width"
+msgstr "نصف عرض"
+
+#: templates\projects\detail.html
+msgid "Have a project"
+msgstr "هل لديك مشروع"
+
+#: templates\partials\navbar.html
+msgid "Home"
+msgstr "الرئيسية"
+
+#: templates\sections\reel.html
+msgid "Ideas,"
+msgstr "فكرتك."
+
+#: templates\partials\hero_workflow.html
+msgid "Illustration showing data moving from manual input through automation and AI into connected digital systems."
+msgstr "رسم يوضّح انتقال البيانات من الإدخال اليدوي إلى الأتمتة والذكاء الاصطناعي والأنظمة الرقمية المترابطة."
+
+#: core\validators.py projects\admin.py
+msgid "Image"
+msgstr "الصورة"
+
+#: contact\apps.py
+msgid "Inquiries"
+msgstr "الاستفسارات"
+
+#: contact\admin.py
+msgid "Inquiry"
+msgstr "الطلب"
+
+#: core\content.py
+msgid "Internal business systems"
+msgstr "الأنظمة الداخلية للشركات"
+
+#: core\content.py
+msgid "Internal platforms"
+msgstr "المنصات الداخلية"
+
+#: core\content.py
+msgid "Landing pages"
+msgstr "الصفحات التعريفية وصفحات الهبوط"
+
+#: templates\partials\footer.html templates\partials\lang_switch.html
+msgid "Language"
+msgstr "اللغة"
+
+#: templates\sections\about.html templates\sections\contact.html
+msgid "Languages"
+msgstr "اللغات"
+
+#: templates\sections\hero.html
+msgid "Latest AI film"
+msgstr "أحدث فيديو بالذكاء الاصطناعي"
+
+#: projects\admin.py
+msgid "Leave a field empty to fall back to the English text on /ar/ pages."
+msgstr "اترك الحقل فارغاً لعرض النص الإنجليزي في الصفحات العربية."
+
+#: contact\forms.py
+msgid "Leave this field empty"
+msgstr "اترك هذا الحقل فارغاً"
+
+#: templates\sections\contact.html
+msgid "Let's build"
+msgstr "لنبنِ"
+
+#: projects\models.py
+msgid "Link to the code repository, e.g. GitHub (optional)."
+msgstr "رابط مستودع الشيفرة، مثل GitHub (اختياري)."
+
+#: projects\admin.py
+msgid "Links"
+msgstr "الروابط"
+
+#: templates\sections\about.html
+msgid "MAAN LAB is a creative technology studio from Ma'an, Jordan, working across software, automation, AI and digital production."
+msgstr "MAAN LAB استوديو تقني وإبداعي من معان، الأردن، نعمل في تطوير البرمجيات، والأتمتة، والذكاء الاصطناعي، والإنتاج الرقمي."
+
+#: core\views.py
+msgid "MAAN LAB — Creative Technology Studio from Ma'an, Jordan"
+msgstr "MAAN LAB — استوديو للتقنية والإبداع من معان، الأردن"
+
+#: templates\partials\footer.html templates\sections\about.html templates\sections\contact.html templates\sections\hero.html
+msgid "Ma'an, Jordan"
+msgstr "معان، الأردن"
+
+#: templates\sections\hero.html
+msgid "Made real."
+msgstr "نحولها إلى واقع."
+
+#: templates\partials\navbar.html
+msgid "Main"
+msgstr "القائمة الرئيسية"
+
+#: projects\models.py
+msgid "Main visual (16:10 recommended, 2400px wide). Also used as the video poster."
+msgstr "الصورة الرئيسية (يُفضّل ١٦:١٠ بعرض ٢٤٠٠ بكسل). تُستخدم أيضاً غلافاً للفيديو."
+
+#: projects\admin.py
+msgid "Mark as featured"
+msgstr "تعليم كمميّز"
+
+#: contact\admin.py
+msgid "Mark selected messages as read"
+msgstr "تعليم الرسائل المحددة كمقروءة"
+
+#: contact\admin.py
+msgid "Mark selected messages as unread"
+msgstr "تعليم الرسائل المحددة كغير مقروءة"
+
+#: projects\admin.py
+msgid "Media"
+msgstr "الوسائط"
+
+#: templates\partials\navbar.html
+msgid "Menu"
+msgstr "القائمة"
+
+#: contact\forms.py
+msgid "Message"
+msgstr "الرسالة"
+
+#: templates\sections\contact.html
+msgid "Message received"
+msgstr "تم استلام رسالتك"
+
+#: contact\forms.py
+msgid "Name"
+msgstr "الاسم"
+
+#: templates\partials\footer.html
+msgid "Navigation"
+msgstr "روابط الموقع"
+
+#: templates\projects\detail.html
+msgid "Next project"
+msgstr "المشروع التالي"
+
+#: templates\sections\projects.html
+msgid "No projects in this category yet — new work is on the way."
+msgstr "لا توجد مشاريع في هذا المجال حتى الآن — سنضيف أعمالًا جديدة قريبًا."
+
+#: templates\404.html
+msgid "Nothing here."
+msgstr "لا شيء هنا."
+
+#: core\admin.py
+msgid "Object"
+msgstr "المجسّم"
+
+#: projects\models.py
+msgid "One item per line."
+msgstr "عنصر واحد في كل سطر."
+
+#: projects\models.py
+msgid "One or two sentences shown on project cards."
+msgstr "جملة أو جملتان تظهران على بطاقة المشروع."
+
+#: core\admin.py
+msgid "One simple premium technology object, presented like a product. Use a transparent PNG/WebP cut-out — or a short muted loop with a poster."
+msgstr "مجسّم تقني واحد بسيط وفاخر، يُعرض كمنتج. استخدم صورة PNG/WebP بخلفية شفافة — أو مقطعاً قصيراً صامتاً مع صورة غلاف."
+
+#: templates\partials\navbar.html
+msgid "Open menu"
+msgstr "فتح القائمة"
+
+#: core\content.py
+msgid "Operational automation"
+msgstr "أتمتة العمليات التشغيلية"
+
+#: projects\models.py
+msgid "Optional MP4/WebM. Plays muted as a preview on hover and on the project page."
+msgstr "اختياري بصيغة MP4/WebM. يعمل صامتاً كمعاينة عند المرور وفي صفحة المشروع."
+
+#: projects\models.py
+msgid "Optional complete video with sound, shown with a player on the project page. It loads only when the visitor presses play. Keep the cover video a short, light loop."
+msgstr "فيديو كامل بالصوت (اختياري) يُعرض بمشغّل في صفحة المشروع، ولا يُحمَّل إلا عند ضغط الزائر على زر التشغيل. احرص على أن يبقى فيديو الغلاف مقطعًا قصيرًا وخفيفًا."
+
+#: projects\models.py
+msgid "Optional image for the homepage card. Falls back to the cover image."
+msgstr "صورة اختيارية لبطاقة الصفحة الرئيسية. تُستخدم صورة الغلاف إن لم تتوفر."
+
+#: core\models.py
+msgid "Optional short MP4/WebM loop (muted). Shown instead of the image."
+msgstr "مقطع قصير اختياري بصيغة MP4/WebM (صامت)، يظهر بدلاً من الصورة."
+
+#: projects\models.py
+msgid "Optional smaller copy of the cover video (about 960px wide) used on phones to save data."
+msgstr "نسخة أصغر اختيارية من فيديو الغلاف (بعرض 960 بكسل تقريبًا) تُعرض على الهواتف لتوفير استهلاك البيانات."
+
+#: projects\models.py
+msgid "Optional smaller copy of the full film (about 1280px wide) played on phones."
+msgstr "نسخة أصغر اختيارية من الفيلم الكامل (بعرض 1280 بكسل تقريبًا) تُعرض على الهواتف."
+
+#: contact\models.py
+msgid "Other"
+msgstr "أخرى"
+
+#: templates\sections\projects.html
+msgid "Our projects."
+msgstr "مشاريعنا."
+
+#: templates\sections\services.html
+msgid "Our services."
+msgstr "خدمات رقمية."
+
+#: templates\projects\detail.html
+msgid "Overview"
+msgstr "عن المشروع"
+
+#: templates\404.html
+msgid "Page not found"
+msgstr "الصفحة غير موجودة"
+
+#: core\views.py
+msgid "Page not found — MAAN LAB"
+msgstr "الصفحة غير موجودة — MAAN LAB"
+
+#: templates\projects\detail.html templates\sections\reel.html
+msgid "Pause video"
+msgstr "إيقاف الفيديو مؤقتًا"
+
+#: contact\forms.py
+msgid "Phone"
+msgstr "رقم الهاتف"
+
+#: templates\partials\footer.html
+msgid "Placeholder email — set CONTACT_EMAIL."
+msgstr "بريد مؤقت — عدّل CONTACT_EMAIL."
+
+#: templates\sections\reel.html
+msgid "Placeholder film — replace with a real production"
+msgstr "فيديو تجريبي — يُستبدل بعمل حقيقي"
+
+#: templates\sections\reel.html
+msgid "Placeholder showreel"
+msgstr "عرض أعمال تجريبي"
+
+#: templates\partials\project_card.html templates\sections\projects.html
+msgid "Play"
+msgstr "تشغيل الفيديو"
+
+#: templates\projects\detail.html templates\sections\reel.html
+msgid "Play video"
+msgstr "تشغيل الفيديو"
+
+#: contact\forms.py
+msgid "Please add an email address."
+msgstr "يرجى إدخال بريدك الإلكتروني."
+
+#: templates\sections\contact.html
+msgid "Please check the highlighted fields."
+msgstr "يرجى مراجعة الحقول المحددة."
+
+#: contact\forms.py
+msgid "Please enter your full name."
+msgstr "يرجى كتابة اسمك الكامل."
+
+#: contact\forms.py
+msgid "Please tell us your name."
+msgstr "يرجى كتابة اسمك."
+
+#: projects\apps.py
+msgid "Portfolio"
+msgstr "المشاريع"
+
+#: contact\forms.py
+msgid "Preferred language"
+msgstr "اللغة المفضلة"
+
+#: core\content.py
+msgid "Product films"
+msgstr "فيديوهات المنتجات"
+
+#: templates\partials\footer.html templates\partials\navbar.html
+msgid "Projects"
+msgstr "المشاريع"
+
+#: projects\models.py
+msgid "Public link to the running website or app (optional)."
+msgstr "رابط عام للموقع أو التطبيق قيد التشغيل (اختياري)."
+
+#: projects\admin.py
+msgid "Publish selected projects"
+msgstr "نشر المشاريع المحددة"
+
+#: projects\admin.py
+msgid "Publishing"
+msgstr "النشر"
+
+#: projects\admin.py
+msgid "Remove featured flag"
+msgstr "إزالة علامة التمييز"
+
+#: core\content.py
+msgid "Replacing spreadsheets with systems"
+msgstr "استبدال الجداول اليدوية بأنظمة متكاملة"
+
+#: core\content.py
+msgid "Responsive interfaces"
+msgstr "واجهات متجاوبة مع مختلف الأجهزة"
+
+#: projects\admin.py
+msgid "SEO"
+msgstr "تحسين محركات البحث"
+
+#: projects\models.py
+msgid "SEO description (Arabic)"
+msgstr "وصف محركات البحث (عربي)"
+
+#: projects\models.py
+msgid "SEO description (English)"
+msgstr "وصف محركات البحث (إنجليزي)"
+
+#: projects\models.py
+msgid "SEO title (Arabic)"
+msgstr "عنوان محركات البحث (عربي)"
+
+#: projects\models.py
+msgid "SEO title (English)"
+msgstr "عنوان محركات البحث (إنجليزي)"
+
+#: templates\sections\hero.html
+msgid "Scroll"
+msgstr "اكتشف المزيد"
+
+#: templates\sections\hero.html
+msgid "See Our Work"
+msgstr "استعرض أعمالنا"
+
+#: templates\sections\reel.html
+msgid "See our AI video work"
+msgstr "استعرض أعمالنا في فيديوهات الذكاء الاصطناعي"
+
+#: contact\forms.py
+msgid "Select a service"
+msgstr "اختر الخدمة"
+
+#: templates\sections\about.html
+msgid "Selected projects"
+msgstr "مشاريع مختارة"
+
+#: templates\sections\projects.html
+msgid "Selected work"
+msgstr "أعمال مختارة"
+
+#: templates\sections\contact.html
+msgid "Send Message"
+msgstr "أرسل رسالتك"
+
+#: contact\admin.py
+msgid "Sender"
+msgstr "المرسل"
+
+#: templates\sections\contact.html
+msgid "Sending…"
+msgstr "جارٍ الإرسال…"
+
+#: contact\forms.py
+msgid "Service"
+msgstr "الخدمة المطلوبة"
+
+#: templates\partials\footer.html templates\partials\navbar.html
+msgid "Services"
+msgstr "الخدمات"
+
+#: projects\models.py
+msgid "Show the whole image — screenshots and interfaces"
+msgstr "عرض الصورة كاملة — للقطات الشاشة والواجهات"
+
+#: templates\sections\projects.html
+msgid "Showing {count} of {total} projects"
+msgstr "عرض {count} من أصل {total} مشروعًا"
+
+#: projects\models.py
+msgid "Shown as a wide card."
+msgstr "يظهر كبطاقة عريضة."
+
+#: templates\sections\reel.html
+msgid "Showreel"
+msgstr "عرض الأعمال"
+
+#: core\apps.py
+msgid "Site"
+msgstr "الموقع"
+
+#: templates\base.html
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: templates\partials\footer.html
+msgid "Social"
+msgstr "وسائل التواصل"
+
+#: core\content.py
+msgid "Social media campaigns"
+msgstr "محتوى الحملات الرقمية"
+
+#: templates\partials\footer.html
+msgid "Software, automation, AI and creative production — built from Ma'an, Jordan."
+msgstr "حلول برمجية، وأتمتة، وذكاء اصطناعي، وإنتاج رقمي — من معان، الأردن."
+
+#: contact\forms.py
+msgid "Spam protection triggered."
+msgstr "تم رصد رسالة غير مرغوب فيها."
+
+#: templates\partials\navbar.html templates\projects\detail.html templates\sections\hero.html
+msgid "Start a Project"
+msgstr "ابدأ مشروعك"
+
+#: contact\admin.py
+msgid "Status"
+msgstr "الحالة"
+
+#: core\content.py
+msgid "Storyboarding"
+msgstr "إعداد الـStoryboard"
+
+#: templates\sections\contact.html
+msgid "Studio"
+msgstr "موقعنا"
+
+#: core\content.py
+msgid "System integration"
+msgstr "تكامل الأنظمة"
+
+#: core\content.py
+msgid "Technology"
+msgstr "التقنية"
+
+#: contact\forms.py
+msgid "Tell us a little about the project."
+msgstr "أخبرنا قليلًا عن المشروع."
+
+#: templates\sections\contact.html
+msgid "Tell us what you're trying to build, automate or create. We'll come back with a clear way forward."
+msgstr "أخبرنا بما ترغب في بنائه أو تطويره أو أتمتته، وسنعود إليك بخطوات واضحة تناسب احتياج مشروعك."
+
+#: contact\views.py
+msgid "Thanks — we got your message. We'll get back to you soon."
+msgstr "شكرًا لك، لقد استلمنا رسالتك وسنتواصل معك قريبًا."
+
+#: contact\forms.py
+msgid "That email address doesn't look right."
+msgstr "يبدو أن البريد الإلكتروني غير صحيح."
+
+#: templates\sections\about.html
+msgid "The Treasury, carved into rose-red sandstone at Petra in Ma’an Governorate, lit by warm evening light"
+msgstr "الخزنة المنحوتة في الصخر الوردي في البترا بمحافظة معان، في ضوء المساء الدافئ"
+
+#: templates\projects\detail.html
+msgid "The film"
+msgstr "الفيلم"
+
+#: templates\404.html
+msgid "The page you're looking for has moved or never existed."
+msgstr "الصفحة التي تبحث عنها نُقلت أو لم تكن موجودة أصلاً."
+
+#: projects\admin.py
+msgid "Timestamps"
+msgstr "التواريخ"
+
+#: contact\views.py
+msgid "Too many messages from this connection. Please try again in a few minutes."
+msgstr "عدد كبير من الرسائل من هذا الاتصال. يرجى المحاولة بعد دقائق."
+
+#: core\models.py
+msgid "Transparent PNG or WebP cut-out of the object. Around 1600×1600px works best."
+msgstr "صورة PNG أو WebP للمجسّم بخلفية شفافة. الأفضل بحجم ١٦٠٠×١٦٠٠ بكسل تقريباً."
+
+#: projects\admin.py
+msgid "Unpublish selected projects"
+msgstr "إلغاء نشر المشاريع المحددة"
+
+#: contact\forms.py
+msgid "Use digits only, with an optional + country code."
+msgstr "استخدم الأرقام فقط، ويمكنك إضافة رمز الدولة +."
+
+#: projects\models.py
+msgid "Used in the URL: /en/projects/<slug>/"
+msgstr "يُستخدم في الرابط: /ar/projects/<slug>/"
+
+#: core\validators.py projects\admin.py
+msgid "Video"
+msgstr "الفيديو"
+
+#: projects\admin.py
+msgid "Video + poster"
+msgstr "فيديو مع غلاف"
+
+#: templates\partials\project_card.html templates\sections\projects.html
+msgid "View"
+msgstr "استعرض المشروع"
+
+#: templates\projects\detail.html
+msgid "View source code"
+msgstr "عرض الشيفرة المصدرية"
+
+#: templates\projects\detail.html
+msgid "Visit live site"
+msgstr "زيارة الموقع"
+
+#: templates\sections\hero.html
+msgid "Watch project"
+msgstr "شاهد المشروع"
+
+#: templates\projects\detail.html
+msgid "Watch the film"
+msgstr "شاهد الفيلم"
+
+#: templates\sections\reel.html
+msgid "Watch the full film"
+msgstr "شاهد الفيلم كاملًا"
+
+#: templates\sections\hero.html
+msgid "We automate work, build software and create AI-powered content — from Ma'an, for businesses everywhere."
+msgstr "نطوّر الحلول البرمجية، ونؤتمت الأعمال، ونبني تطبيقات وأنظمة ذكية، وننتج محتوى بصريًا باستخدام تقنيات الذكاء الاصطناعي — من معان إلى أعمال داخل الأردن وخارجه."
+
+#: templates\sections\about.html
+msgid "We combine"
+msgstr "نجمع بين"
+
+#: templates\sections\contact.html
+msgid "We only use your details to reply to your message."
+msgstr "نستخدم بياناتك فقط للرد على رسالتك والتواصل معك بشأن طلبك."
+
+#: core\content.py
+msgid "We remove repetitive work, connect your tools and build AI-powered workflows that save time and reduce manual steps."
+msgstr "نساعدك على تقليل المهام المتكررة، وربط الأدوات والأنظمة، وبناء مسارات عمل ذكية توفر الوقت وتحد من العمل اليدوي."
+
+#: templates\sections\services.html
+msgid "We start with the problem, then choose the right technology."
+msgstr "نبدأ بفهم المشكلة، ثم نختار التقنية الأنسب لحلها."
+
+#: templates\sections\about.html
+msgid "We turn manual work, rough ideas and creative concepts into digital systems, products and experiences that are ready to use."
+msgstr "نحوّل الأفكار الأولية، والعمليات اليدوية، والمفاهيم الإبداعية إلى أنظمة ومنتجات وتجارب رقمية قابلة للاستخدام والتطوير."
+
+#: core\content.py
+msgid "We turn scattered spreadsheets, manual processes and disconnected tools into systems your team can actually run."
+msgstr "نحوّل الإجراءات اليدوية، والملفات المتفرقة، والأدوات غير المترابطة إلى أنظمة عملية تساعد فريقك على العمل بصورة أكثر تنظيمًا وكفاءة."
+
+#: templates\sections\about.html
+msgid "We're a small, hands-on team. The people who understand the problem, shape the solution and build it are the same people you work with. We work in Arabic and English, in Jordan and beyond."
+msgstr "نحن فريق صغير يعمل بصورة مباشرة على مختلف مراحل المشروع. الأشخاص الذين يفهمون المشكلة ويصممون الحل هم أنفسهم من يشاركون في تنفيذه والتواصل معك طوال رحلة المشروع. نعمل باللغتين العربية والإنجليزية، ونخدم المشاريع داخل الأردن وخارجه."
+
+#: contact\models.py core\content.py projects\models.py templates\partials\footer.html
+msgid "Web Development"
+msgstr "تطوير المواقع والأنظمة"
+
+#: core\content.py
+msgid "Web applications"
+msgstr "تطبيقات الويب"
+
+#: core\admin.py
+msgid "Website content"
+msgstr "محتوى الموقع"
+
+#: core\content.py
+msgid "Websites, platforms and internal tools built to be fast, clear, bilingual and easy to manage."
+msgstr "نصمم ونطوّر مواقع ومنصات وأنظمة رقمية سريعة، واضحة، متجاوبة وسهلة الإدارة."
+
+#: templates\sections\services.html
+msgid "What we do"
+msgstr "ما الذي نقدمه؟"
+
+#: templates\sections\about.html
+msgid "Who we are"
+msgstr "من نحن"
+
+#: templates\sections\about.html
+msgid "Work and case studies published on this site."
+msgstr "مشاريع ودراسات حالة منشورة على هذا الموقع."
+
+#: core\content.py
+msgid "Workflow automation"
+msgstr "أتمتة سير العمل"
+
+#: templates\projects\detail.html
+msgid "Year"
+msgstr "السنة"
+
+#: templates\404.html
+msgid "Yet."
+msgstr "حتى الآن."
+
+#: core\models.py
+msgid "active"
+msgstr "مفعّل"
+
+#: projects\admin.py projects\models.py
+msgid "also show under"
+msgstr "يظهر أيضًا ضمن"
+
+#: core\models.py
+msgid "alt text (Arabic)"
+msgstr "النص البديل (عربي)"
+
+#: core\models.py
+msgid "alt text (English)"
+msgstr "النص البديل (إنجليزي)"
+
+#: templates\sections\reel.html
+msgid "brought to life with AI."
+msgstr "نحولها إلى تجربة بصرية."
+
+#: projects\models.py
+msgid "caption (Arabic)"
+msgstr "التعليق (عربي)"
+
+#: projects\models.py
+msgid "caption (English)"
+msgstr "التعليق (إنجليزي)"
+
+#: projects\models.py
+msgid "card thumbnail"
+msgstr "صورة البطاقة"
+
+#: projects\models.py
+msgid "category"
+msgstr "الفئة"
+
+#: projects\models.py
+msgid "client (Arabic)"
+msgstr "العميل (عربي)"
+
+#: projects\models.py
+msgid "client (English)"
+msgstr "العميل (إنجليزي)"
+
+#: contact\models.py
+msgid "company / business"
+msgstr "الشركة / النشاط التجاري"
+
+#: contact\models.py
+msgid "contact message"
+msgstr "رسالة تواصل"
+
+#: contact\models.py
+msgid "contact messages"
+msgstr "رسائل التواصل"
+
+#: projects\models.py
+msgid "cover display"
+msgstr "طريقة عرض الغلاف"
+
+#: projects\models.py
+msgid "cover image"
+msgstr "صورة الغلاف"
+
+#: projects\models.py
+msgid "cover video"
+msgstr "فيديو الغلاف"
+
+#: projects\models.py
+msgid "cover video — phone version"
+msgstr "فيديو الغلاف — نسخة الهاتف"
+
+#: projects\admin.py
+msgid "current cover"
+msgstr "الغلاف الحالي"
+
+#: projects\models.py
+msgid "deliverables (Arabic)"
+msgstr "المخرجات (عربي)"
+
+#: projects\models.py
+msgid "deliverables (English)"
+msgstr "المخرجات (إنجليزي)"
+
+#: projects\models.py
+msgid "description (Arabic)"
+msgstr "الوصف (عربي)"
+
+#: projects\models.py
+msgid "description (English)"
+msgstr "الوصف (إنجليزي)"
+
+#: projects\models.py
+msgid "display order"
+msgstr "ترتيب العرض"
+
+#: contact\admin.py contact\models.py
+msgid "email"
+msgstr "البريد الإلكتروني"
+
+#: projects\models.py
+msgid "featured"
+msgstr "مميّز"
+
+#: projects\models.py
+msgid "full film"
+msgstr "الفيلم الكامل"
+
+#: projects\models.py
+msgid "full film — phone version"
+msgstr "الفيلم الكامل — نسخة الهاتف"
+
+#: projects\models.py
+msgid "gallery"
+msgstr "المعرض"
+
+#: projects\models.py
+msgid "gallery item"
+msgstr "عنصر في المعرض"
+
+#: core\models.py
+msgid "hero media"
+msgstr "وسائط الواجهة"
+
+#: projects\models.py
+msgid "image"
+msgstr "صورة"
+
+#: templates\projects\detail.html
+msgid "in mind?"
+msgstr "ترغب في تنفيذه؟"
+
+#: core\models.py
+msgid "internal label"
+msgstr "تسمية داخلية"
+
+#: projects\models.py
+msgid "layout"
+msgstr "التخطيط"
+
+#: projects\models.py
+msgid "live site URL"
+msgstr "رابط الموقع المباشر"
+
+#: projects\admin.py
+msgid "media"
+msgstr "الوسائط"
+
+#: contact\models.py
+msgid "message"
+msgstr "الرسالة"
+
+#: contact\models.py
+msgid "name"
+msgstr "الاسم"
+
+#: contact\admin.py
+msgid "new"
+msgstr "جديدة"
+
+#: core\models.py
+msgid "object image"
+msgstr "صورة المجسّم"
+
+#: core\models.py
+msgid "object video"
+msgstr "فيديو المجسّم"
+
+#: projects\models.py
+msgid "order"
+msgstr "الترتيب"
+
+#: contact\models.py
+msgid "phone"
+msgstr "الهاتف"
+
+#: contact\models.py
+msgid "preferred language"
+msgstr "اللغة المفضلة"
+
+#: core\admin.py projects\admin.py
+msgid "preview"
+msgstr "معاينة"
+
+#: projects\models.py
+msgid "project"
+msgstr "مشروع"
+
+#: projects\models.py
+msgid "projects"
+msgstr "المشاريع"
+
+#: projects\models.py
+msgid "published"
+msgstr "منشور"
+
+#: contact\admin.py contact\models.py
+msgid "read"
+msgstr "مقروءة"
+
+#: contact\models.py
+msgid "received"
+msgstr "تاريخ الاستلام"
+
+#: contact\models.py
+msgid "service"
+msgstr "الخدمة"
+
+#: projects\models.py
+msgid "short description (Arabic)"
+msgstr "وصف مختصر (عربي)"
+
+#: projects\models.py
+msgid "short description (English)"
+msgstr "وصف مختصر (إنجليزي)"
+
+#: contact\models.py
+msgid "site language"
+msgstr "لغة الموقع"
+
+#: projects\models.py
+msgid "slug"
+msgstr "المعرّف في الرابط"
+
+#: templates\sections\contact.html
+msgid "something useful."
+msgstr "شيئًا ذا قيمة."
+
+#: projects\models.py
+msgid "source code URL"
+msgstr "رابط الشيفرة المصدرية"
+
+#: projects\models.py
+msgid "title (Arabic)"
+msgstr "العنوان (عربي)"
+
+#: projects\models.py
+msgid "title (English)"
+msgstr "العنوان (إنجليزي)"
+
+#: projects\models.py
+msgid "video"
+msgstr "فيديو"
+
+#: core\models.py
+msgid "video poster"
+msgstr "غلاف الفيديو"
+
+#: projects\models.py
+msgid "year"
+msgstr "السنة"
+
+#: templates\partials\footer.html
+msgid "© %(year)s MAAN LAB."
+msgstr "© MAAN LAB — جميع الحقوق محفوظة."
+
+#: projects\models.py
+msgid "“Show the whole image” keeps screenshots uncropped on a dark frame. Applies to the cover and gallery images."
+msgstr "يعرض خيار «عرض الصورة كاملة» لقطات الشاشة دون قص داخل إطار داكن، ويُطبَّق على صورة الغلاف وصور المعرض."

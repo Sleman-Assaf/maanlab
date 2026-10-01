@@ -1,0 +1,54 @@
+{% load i18n maan %}
+<header class="site-header" data-header data-theme="dark">
+  <div class="site-header__bar container">
+    <a class="brand" href="{% url 'core:home' %}" aria-label="MAAN LAB — {% translate 'Home' %}">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__word">MAAN LAB</span>
+    </a>
+
+    <nav class="site-nav" aria-label="{% translate 'Main' %}">
+      <ul class="site-nav__list" role="list">
+        <li><a class="nav-link" href="{% anchor 'top' %}" data-nav-link="top">{% translate "Home" %}</a></li>
+        <li><a class="nav-link" href="{% anchor 'services' %}" data-nav-link="services">{% translate "Services" %}</a></li>
+        <li><a class="nav-link" href="{% anchor 'projects' %}" data-nav-link="projects">{% translate "Projects" %}</a></li>
+        <li><a class="nav-link" href="{% anchor 'about' %}" data-nav-link="about">{% translate "About" %}</a></li>
+        <li><a class="nav-link" href="{% anchor 'contact' %}" data-nav-link="contact">{% translate "Contact" %}</a></li>
+      </ul>
+    </nav>
+
+    <div class="site-header__tools">
+      {% include "partials/lang_switch.html" with extra_class="lang-switch--header" %}
+      <a class="btn btn--primary btn--sm site-header__cta" href="{% anchor 'contact' %}">
+        <span>{% translate "Start a Project" %}</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-menu-toggle
+              data-label-open="{% translate 'Open menu' %}" data-label-close="{% translate 'Close menu' %}">
+        <span class="sr-only" data-menu-label>{% translate "Open menu" %}</span>
+        <span class="menu-toggle__bar" aria-hidden="true"></span>
+        <span class="menu-toggle__bar" aria-hidden="true"></span>
+      </button>
+      <a class="menu-nojs" href="#footer-nav">{% translate "Menu" %}</a>
+    </div>
+  </div>
+
+  <div class="site-menu" id="site-menu" data-menu inert aria-hidden="true">
+    <div class="site-menu__clip">
+      <div class="site-menu__inner container">
+        <ul class="site-menu__list" role="list">
+          <li><a class="site-menu__link" href="{% anchor 'top' %}" data-menu-link><span class="site-menu__num">00</span>{% translate "Home" %}</a></li>
+          <li><a class="site-menu__link" href="{% anchor 'services' %}" data-menu-link><span class="site-menu__num">01</span>{% translate "Services" %}</a></li>
+          <li><a class="site-menu__link" href="{% anchor 'projects' %}" data-menu-link><span class="site-menu__num">02</span>{% translate "Projects" %}</a></li>
+          <li><a class="site-menu__link" href="{% anchor 'about' %}" data-menu-link><span class="site-menu__num">03</span>{% translate "About" %}</a></li>
+          <li><a class="site-menu__link" href="{% anchor 'contact' %}" data-menu-link><span class="site-menu__num">04</span>{% translate "Contact" %}</a></li>
+        </ul>
+        <div class="site-menu__foot">
+          {% include "partials/lang_switch.html" with extra_class="lang-switch--menu" %}
+          <a class="btn btn--primary btn--block" href="{% anchor 'contact' %}" data-menu-link>
+            <span>{% translate "Start a Project" %}</span>{% include "partials/icons.html" with icon="arrow" %}
+          </a>
+          <a class="site-menu__email" href="mailto:{{ CONTACT_EMAIL }}" dir="ltr">{{ CONTACT_EMAIL }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

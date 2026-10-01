@@ -1,0 +1,84 @@
+{% load static i18n maan %}
+<section class="hero" id="top" data-hero data-nav-theme="dark" data-nav-section="top"
+         data-pin-bottom data-pin-min="-300" data-pin-mq="(min-width: 1200px)" aria-labelledby="hero-title">
+  <div class="hero__bg" aria-hidden="true" data-hero-bg>
+    <div class="hero__bg-inner" data-hero-bg-scale>
+      <div class="hero__bg-glow"></div>
+      <div class="hero__bg-dots"></div>
+      <div class="hero__bg-horizon"></div>
+    </div>
+  </div>
+  <div class="hero__shade" aria-hidden="true" data-hero-shade></div>
+
+  <div class="hero__grid container">
+    <div class="hero__content" data-hero-content>
+      <p class="eyebrow hero__eyebrow" data-hero-in="eyebrow">
+        <span class="is-accent">MAAN LAB</span> <span class="eyebrow__sep">/</span> <span class="is-accent">{% translate "Creative Technology Studio" %}</span>
+      </p>
+
+      <h1 class="hero__title" id="hero-title" data-hero-in="title">
+        <span class="line">{% translate "Digital ideas." %}</span>
+        <span class="line is-accent">{% translate "Made real." %}</span>
+      </h1>
+
+      <p class="hero__lead" data-hero-in="lead">
+        {% translate "We automate work, build software and create AI-powered content — from Ma'an, for businesses everywhere." %}
+      </p>
+
+      <div class="hero__actions" data-hero-in="actions">
+        <a class="btn btn--primary" href="#contact">
+          <span>{% translate "Start a Project" %}</span>{% include "partials/icons.html" with icon="arrow" %}
+        </a>
+        <a class="link-arrow" href="#projects">
+          <span class="link-arrow__text">{% translate "See Our Work" %}</span>{% include "partials/icons.html" with icon="arrow-up-right" %}
+        </a>
+      </div>
+
+      {% if featured_film %}
+      <div class="hero-feature" data-hero-feature>
+        <span class="hero-feature__rule" aria-hidden="true"></span>
+        <a class="hero-feature__media shutter" href="{{ featured_film.get_absolute_url }}" tabindex="-1" aria-hidden="true"
+           {% if featured_film.has_video %}data-hover-video="{{ featured_film.cover_video.url }}"{% if featured_film.cover_video_mobile %} data-hover-video-mobile="{{ featured_film.cover_video_mobile.url }}"{% endif %}{% endif %}>
+          {% if featured_film.card_image_field %}
+            {% picture featured_film featured_film.card_image_field sizes="(min-width: 1200px) 300px, 45vw" css="hero-feature__picture" %}
+          {% endif %}
+          {% if featured_film.has_video %}
+            <video class="hero-feature__video" muted playsinline loop preload="none" aria-hidden="true"></video>
+            <span class="play-badge">{% include "partials/icons.html" with icon="play" %}</span>
+          {% endif %}
+        </a>
+        <div class="hero-feature__body" data-hero-feature-body>
+          <p class="eyebrow">{% translate "Latest AI film" %}</p>
+          <h2 class="hero-feature__title">{{ featured_film.t.title }}</h2>
+          <a class="link-arrow link-arrow--small" href="{{ featured_film.get_absolute_url }}">
+            <span class="link-arrow__text">{% translate "Watch project" %}</span>{% include "partials/icons.html" with icon="arrow-up-right" %}
+          </a>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="hero__visual">
+      {% include "partials/hero_workflow.html" %}
+
+      <dl class="glass-card hero-stats" data-hero-stats>
+        <div class="hero-stats__item" data-hero-stat>
+          <dt class="hero-stats__value" dir="ltr">{{ stats.disciplines|pad2 }}</dt>
+          <dd class="hero-stats__label">{% translate "Capabilities" %}</dd>
+        </div>
+        <div class="hero-stats__item" data-hero-stat>
+          <dt class="hero-stats__value">{% translate "AR · EN" %}</dt>
+          <dd class="hero-stats__label">{% translate "Bilingual by design" %}</dd>
+        </div>
+        <div class="hero-stats__item" data-hero-stat>
+          <dt class="hero-stats__value" dir="ltr">30.19° N</dt>
+          <dd class="hero-stats__label">{% translate "Ma'an, Jordan" %}</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+
+  <a class="hero__scroll" href="#services" data-hero-in="cue">
+    <span>{% translate "Scroll" %}</span><i aria-hidden="true"></i>
+  </a>
+</section>

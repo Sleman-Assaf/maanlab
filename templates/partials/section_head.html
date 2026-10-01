@@ -1,0 +1,22 @@
+{% comment %}
+  Section headline row (ORYN pattern): eyebrow + 2-line display heading at the
+  start side, supporting copy at the end side, aligned to the heading's bottom.
+  Params: num, label, line1, line2, lead, sub, heading_id, heading_tag
+{% endcomment %}
+<div class="section-head{% if head_class %} {{ head_class }}{% endif %}">
+  <div class="section-head__main">
+    <p class="eyebrow" data-reveal data-reveal-y="30" data-reveal-duration="1.2" data-reveal-delay=".3">
+      <span class="eyebrow__num">{{ num }}</span> <span class="eyebrow__sep">/</span> {{ label }}
+    </p>
+    <h2 class="display section-head__title" id="{{ heading_id }}" data-split>
+      <span class="line">{{ line1 }}</span>
+      {% if line2 %}<span class="line is-accent">{{ line2 }}</span>{% endif %}
+    </h2>
+  </div>
+  {% if lead or sub %}
+  <div class="section-head__aside">
+    {% if lead %}<p class="lead" data-reveal data-reveal-delay=".2" data-reveal-threshold=".5">{{ lead }}</p>{% endif %}
+    {% if sub %}<p class="body-muted" data-reveal data-reveal-delay=".5" data-reveal-threshold=".5">{{ sub }}</p>{% endif %}
+  </div>
+  {% endif %}
+</div>
