@@ -11,7 +11,7 @@ set -euo pipefail
 
 APP_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 USER_NAME="$(whoami)"
-DOMAIN="${USER_NAME}.pythonanywhere.com"
+DOMAIN="$(echo "${USER_NAME}" | tr "[:upper:]" "[:lower:]").pythonanywhere.com"
 WSGI_FILE="/var/www/${DOMAIN//./_}_wsgi.py"
 PY_BIN="$(command -v python3.13 || command -v python3.12 || command -v python3.11 || command -v python3.10)"
 
