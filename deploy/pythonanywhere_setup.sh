@@ -49,15 +49,18 @@ fi
 .venv/bin/python manage.py compile_translations
 .venv/bin/python manage.py collectstatic --noinput
 
+VENV_SITE="$(.venv/bin/python -c 'import sysconfig; print(sysconfig.get_paths()["purelib"])')"
 if [ -f "$WSGI_FILE" ]; then
   cat > "$WSGI_FILE" <<EOF
 # Managed by maanlab/deploy/pythonanywhere_setup.sh
 import os
 import sys
 
-path = "${APP_DIR}"
-if path not in sys.path:
-    sys.path.insert(0, path)
+# Use the project's virtualenv packages first, even if the Web tab's virtualenv
+# setting is missing (the system site-packages also ships a different Django).
+for entry in ("${VENV_SITE}", "${APP_DIR}"):
+    if entry not in sys.path:
+        sys.path.insert(0, entry)
 os.environ["DJANGO_SETTINGS_MODULE"] = "config.settings"
 
 from django.core.wsgi import get_wsgi_application  # noqa: E402
