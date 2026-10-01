@@ -217,8 +217,9 @@ bitrate is the next step.
 3. **Web tab:** Virtualenv `/home/<username>/maanlab/.venv`; Static files `/static/` → `/home/<username>/maanlab/staticfiles`
    and `/media/` → `/home/<username>/maanlab/media`; turn on **Force HTTPS**; **Reload**.
 
-Update later with `cd ~/maanlab && git pull && bash deploy/pythonanywhere_setup.sh`. Free accounts must press
-"Run until 3 months from today" on the Web tab every three months.
+Paths use your username exactly as written (`/home/Sleman159/…` — Linux paths are case-sensitive); the domain is
+lowercase. Update later with `cd ~/maanlab && git pull && bash deploy/pythonanywhere_setup.sh`. Free accounts must
+press "Run until 1 month from today" on the Web tab once a month, or the site is switched off.
 
 ## Notes
 
